@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestCleanUp">
+              <span class="suite-name border-failed">TestCleanUp</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestCleanUp">
+                    <span>C:\Users\admin\eclipse-workspace\3DBroadCastSales_v1.0\Build\Package.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestCleanUp">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestCleanUp">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestCleanUp">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestCleanUp">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestCleanUp">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestCleanUp">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestCleanUp" class="hide-methods failed suite-TestCleanUp"> (hide)</a> <!-- hide-methods failed suite-TestCleanUp -->
+                      <a href="#" panel-name="suite-TestCleanUp" class="show-methods failed suite-TestCleanUp"> (show)</a> <!-- show-methods failed suite-TestCleanUp -->
+                    </span>
+                    <div class="method-list-content failed suite-TestCleanUp">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestCleanUp" title="com.automation.index.PackageIndex" hash-for-method="SignIn">SignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestCleanUp -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestCleanUp" class="panel TestCleanUp">
+          <div class="suite-TestCleanUp-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.index.PackageIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignIn">
+                  </a> <!-- SignIn -->
+                  <span class="method-name">SignIn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Account Information&apos;)]&quot;}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SALES&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60618}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 487e264ba0cc03928279fbf35c1e359a
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Account Information&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.automation.verification.PackageVerification.logindetailsverification(PackageVerification.java:246)
+	at com.automation.index.PackageIndex.SignIn(PackageIndex.java:103)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestCleanUp-class-failed -->
+        </div> <!-- panel TestCleanUp -->
+        <div panel-name="test-xml-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\3DBroadCastSales_v1.0\Build\Package.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;TestCleanUp&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;selenium.url&quot; value=&quot;https://staging.3dbroadcastsales.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterEmailBuildSummary&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterforEmail&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterBuildSummary&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestpassDetails&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestFailureDetails&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestskipDetails&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestDetails&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;SignIn: Verify User SignIn functionality&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.index.PackageIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;SignIn&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.index.PackageIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignIn: Verify User SignIn functionality --&gt;
+&lt;/suite&gt; &lt;!-- TestCleanUp --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignIn: Verify User SignIn functionality (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestCleanUp');
+function tableData_TestCleanUp() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SignIn')
+data.setCell(0, 2, 'com.automation.index.PackageIndex')
+data.setCell(0, 3, 48499);
+window.suiteTableData['TestCleanUp']= { tableData: data, tableDiv: 'times-div-TestCleanUp'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-TestCleanUp">
+              </div> <!-- times-div-TestCleanUp -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet">  </h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> To verify That user is able to Login with the valid details</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step2: Click on the Login menu</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step3: Enter the Details for Login</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : Galb@mailinator.com <===</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : ZigVA@1234 <===</br></span>
+                <span class="reporter-method-output"><br><strong>Step4: Click on Login button</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step5: User Login verification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>===> Account Information Verification <===</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;--- Click on Account Menu ---</br></span>
+                <span class="reporter-method-output"><br> <b>Please look to the screenshot - </b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;<br><Strong><font color=#FF0000>--Failed</font></strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;<a href='screenshots/0108151427358SignIn.png' target='_new'>0108151427358SignIn.png</a></br></span>
+                <span class="reporter-method-output"><br></br><h3>Failure Reason:</h3></span>
+                <span class="reporter-method-output"><br></br>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Account Information&apos;)]&quot;}</span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='red'></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.index.PackageIndex</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">SignUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.index.PackageIndex</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@184f6be2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.automation.index.PackageIndex.SignIn(), org.testng.TestRunner@184f6be2)</span>
+                <span class="method-start">1445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignIn</span>
+                <span class="method-start">13430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SignIn status=FAILURE method=PackageIndex.SignIn()[pri:0, instance:com.automation.i...)</span>
+                <span class="method-start">61943 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
