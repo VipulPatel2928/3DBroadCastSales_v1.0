@@ -31,7 +31,7 @@
 		<listener class-name="com.automation.utility.CustomReporterTestDetails" />
 	</listeners>
 								
-  <!--  <test name="SignUp: Verify User SignUp functionality">
+   <test name="SignUp: Verify User SignUp functionality">
 		<classes>
 			<class name="com.automation.index.PackageIndex">
 				<methods>
@@ -40,7 +40,7 @@
 			</class>
 		</classes>
  </test>  
- -->
+
     
  <test name="SignIn: Verify User SignIn functionality">
 		<classes>
