@@ -301,13 +301,13 @@ else if (targetBrowser.contains("browserstack")) {
 			cap=new DesiredCapabilities();
 			//File apkFile = new File("app/Notepad.apk");
 			//File apkFile = new File("app/Facebook.apk");
-		//	File apkFile = new File("app/redBus Online Bus Ticket Booking Hotel Booking_v6.6.5_apkpure.com.apk");
-
-		//	cap.setCapability("app",apkFile.getAbsolutePath());
+		    //File apkFile = new File("app/redBus Online Bus Ticket Booking Hotel Booking_v6.6.5_apkpure.com.apk");
+		    //cap.setCapability("app",apkFile.getAbsolutePath());
 			cap.setCapability("platformVersion", "6.0");
 			cap.setCapability("platformName", "Android");
-			cap.setCapability("deviceName", "TA09407DYT");
+			cap.setCapability("deviceName", "HKE6GZ7D");
 			cap.setCapability("browserName", "Chrome");
+			//cap.setCapability("chromedriverExecutableDir", "C:\\Users\\admin\\eclipse-workspace\\3DBroadCastSales_v1.0\\Resources\\chromedriver.exe");
 			/*cap.setCapability("appPackage", "com.app.workpulse.task");
 			cap.setCapability("appActivity", "com.workpulse.task.SplashActivity");*/
 			cap.setCapability("autoGrantPermissions", true);
@@ -315,9 +315,9 @@ else if (targetBrowser.contains("browserstack")) {
 			cap.setCapability("newCommandTimeout", 600);
 			cap.setCapability("unicodeKeyboard", true);
 			cap.setCapability("resetKeyboard", true);
-
+			cap.setCapability("chromedriverUseSystemExecutable", true);
 			//androidDriver = Factory.createAndroidDriver(remote_grid, cap);
-		//	driver = new AndroidDriver<MobileElement>(remote_grid1, cap);
+		    //driver = new AndroidDriver<MobileElement>(remote_grid1, cap);
 			driver = new RemoteWebDriver(remote_grid1, cap);
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			

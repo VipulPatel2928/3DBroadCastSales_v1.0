@@ -211,6 +211,7 @@
 					<suiteXmlFiles>
 
 						<suiteXmlFile>Build/Package.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>Build/MobilePackage.xml</suiteXmlFile> -->
 
 					</suiteXmlFiles>
 
@@ -218,8 +219,6 @@
 
 
 					<reportsDirectory>test-output</reportsDirectory>
-
-
 					
 					<properties>
 

@@ -1,30 +1,21 @@
 package com.automation.indexpage;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.automation.index.PackageIndex;
 import com.automation.init.AbstractPage;
 import com.automation.utility.Common;
 import com.automation.verification.PackageVerification;
-
-import com.automation.utility.TestData;
 
 public class PackageIndexpage extends AbstractPage{
 
@@ -203,6 +194,25 @@ public class PackageIndexpage extends AbstractPage{
 	public PackageVerification login_buton() {
 		// TODO Auto-generated method stub		
 		login_button.click();
+		return new PackageVerification(driver);
+	}
+	
+	@FindBy(xpath="//*[@id=\"mainmenu\"]/ul/li[3]/a/span[1]/..")private WebElement cameras_menu;
+	
+	public PackageVerification cameras() {
+		// TODO Auto-generated method stub
+		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(cameras_menu));
+		Actions act = new Actions(driver);
+		act.moveToElement(cameras_menu).build().perform();
+		Common.pause(2);		
+		return new PackageVerification(driver);
+	}
+
+	@FindBy(xpath="//span[contains(text(),'Cinematic Cameras')]")private WebElement cinematic_cameras_menu;
+	public PackageVerification cinematic_cameras() {
+		// TODO Auto-generated method stub
+		new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(cinematic_cameras_menu));
+		cinematic_cameras_menu.click();		
 		return new PackageVerification(driver);
 	}
 

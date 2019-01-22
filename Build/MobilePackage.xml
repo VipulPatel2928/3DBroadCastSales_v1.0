@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="3DBroadCastSales_Suite" verbose="10" parallel="tests"
+	thread-count="1">
+			
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+	
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	   <parameter name="selenium.browser" value="Android_Chrome" /> 
+	    <!-- <parameter name="selenium.browser" value="chrome" /> -->
+	   <!-- <parameter name="selenium.browser" value="m-headless" /> -->
+	 <!-- <parameter name="selenium.browser" value="firefox" /> -->  
+	<!-- <parameter name="selenium.browser" value="ie11" /> -->
+	<!-- <parameter name="selenium.browser" value="Android_Chrome" /> -->
+	<!-- <parameter name="selenium.browser" value="ie11" /> -->
+	 <!-- <parameter name="selenium.browser" value="browserstack" />  --> 
+	<parameter name="selenium.url" value="https://staging.3dbroadcastsales.com/" />
+	
+	<listeners>
+		<listener class-name="com.automation.utility.CustomReporterListener" />
+		<listener class-name="com.automation.utility.CustomReporterEmailBuildSummary" />
+		<listener class-name="com.automation.utility.CustomReporterforEmail" />
+
+		<listener class-name="com.automation.utility.CustomReporterBuildSummary" />
+		<listener class-name="com.automation.utility.CustomReporterTestpassDetails" />
+		<listener class-name="com.automation.utility.CustomReporterTestFailureDetails" />
+		<listener class-name="com.automation.utility.CustomReporterTestskipDetails" />
+		<listener class-name="com.automation.utility.CustomReporterTestDetails" />
+	</listeners>
+								
+   <test name="SignUp: Verify User SignUp functionality">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="SignUp" />
+				</methods>
+			</class>
+		</classes>
+ </test>  
+
+    
+ <test name="SignIn: Verify User SignIn functionality">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="SignIn" />
+				</methods>
+			</class>
+		</classes>
+ </test>  
+    
+
+	</suite>
+ 
