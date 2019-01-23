@@ -126,7 +126,7 @@ public class PackageIndex extends SeleniumInit {
 		} else {
 			Common.log("=====> 3dbroadcastsales home page open <=====");
 			Common.AssertFailed();
-			Common.makeScreenshot(driver, "MenuPageFailed");
+			Common.makeScreenshot(driver, "MenuPage_HomePage_open_Failed");
 		}
 
 		Common.logstep("Step" + (step++) + ": Mouse Hover on [Cameras] menu");
@@ -143,9 +143,25 @@ public class PackageIndex extends SeleniumInit {
 		} else {
 			Common.logStatus("Fail");
 			Common.AssertFailed();
-			Common.makeScreenshot(driver, "MenuPageFailed");
+			Common.makeScreenshot(driver, "MenuPage_Product_Details_Failed");
 			Assert.assertTrue(false);
 		}
+		
+		Common.logstep("Step" + (step++) + ": Click on any [Category]");
+		packageVerification = packageIndexpage.category();
+		
+		if (packageVerification.category_shoping_option()) {
+
+			Common.logStatus("Pass");
+			Common.AssertPassed();
+			Assert.assertTrue(true);
+		} else {
+			Common.logStatus("Fail");
+			Common.AssertFailed();
+			Common.makeScreenshot(driver, "MenuPage_Category_Failed");
+			Assert.assertTrue(false);
+		}
+		
 		
 	}// End of TC_Menu_Page_03 function
 

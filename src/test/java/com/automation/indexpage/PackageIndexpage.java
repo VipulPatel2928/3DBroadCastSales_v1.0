@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,6 +26,7 @@ public class PackageIndexpage extends AbstractPage{
 	
 	public static String email_address = null;
 	public static String password = null;
+	public static String category_label_str = null;
 	
 	public PackageIndexpage(WebDriver driver) {
 		super(driver);
@@ -213,6 +216,20 @@ public class PackageIndexpage extends AbstractPage{
 		// TODO Auto-generated method stub
 		new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(cinematic_cameras_menu));
 		cinematic_cameras_menu.click();		
+		Common.pause(3);
+		return new PackageVerification(driver);
+	}
+	
+	@FindBy(xpath="//input[@name='amshopby[cat][]']") private List<WebElement> category; 
+	@FindBy(xpath="//input[@name='amshopby[cat][]']//../span[@class='label']") private List<WebElement> category_label;
+	
+	public PackageVerification category() {
+		// TODO Auto-generated method stub
+		Common.pause(5);
+		category_label_str = category_label.get(0).getText();
+		Common.log("---> Click on :"+category_label_str+" Category <---");
+		category.get(0).click();
+		Common.pause(5);
 		return new PackageVerification(driver);
 	}
 

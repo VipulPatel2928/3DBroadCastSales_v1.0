@@ -26,6 +26,7 @@ import com.automation.utility.Common;
 import com.automation.utility.TestData;
 import com.sun.imageio.plugins.common.SubImageInputStream;
 import com.automation.utility.Common;
+import org.apache.commons.lang3.StringUtils;
 //import com.init.Common;
 
 public class PackageVerification extends AbstractPage {
@@ -344,19 +345,19 @@ public class PackageVerification extends AbstractPage {
 		int count = products_size.size();		
 		Common.log("---> Number of items :" +products_size.size()+" <---");
 	    //There are some products with Price On Call 
-		Common.log("---> Number of items :" +prices_size.size()+" <---");
+		Common.log("---> Number of prices :" +prices_size.size()+" <---");
 		if(count==addtobasket_size.size())
 			check++;
-		Common.log("---> Number of items :" +addtobasket_size.size()+" <---");
+		Common.log("---> Number of add to basket button :" +addtobasket_size.size()+" <---");
 		if(count==products_images_size.size())	
 			check++;
-		Common.log("---> Number of items :" +products_images_size.size()+" <---");
+		Common.log("---> Number of images :" +products_images_size.size()+" <---");
 		if(count==wishlist_size.size())
 			check++;
-		Common.log("---> Number of items :" +wishlist_size.size()+" <---");
+		Common.log("---> Number of wishlist icon :" +wishlist_size.size()+" <---");
 		if(count==compare_size.size())
 		    check++;
-		Common.log("---> Number of items :" +compare_size.size()+" <---");
+		Common.log("---> Number of compare icon :" +compare_size.size()+" <---");
 		
 		
 		
@@ -372,11 +373,42 @@ public class PackageVerification extends AbstractPage {
 		image_hover.moveToElement(products_images.get(0)).build().perform();
 		Common.pause(5);
 		
+		/*category.click();
+		Common.log("---> Click on the Category Shopping options <---");
+		Common.pause(5);*/
+		
 		
 		if (flag == 9)
 			return true;
 		else
 			return false;
+	}
+
+	List<WebElement> product_list = driver.findElements(By.xpath("//a[@class='product-item-link']"));
+	
+	public boolean category_shoping_option() {
+		// TODO Auto-generated method stub
+		int flag = product_list.size();
+        System.out.println("Flag ="+flag);
+        
+        Common.log("String to match :"+PackageIndexpage.category_label_str.substring(0, 6));
+		
+        for(WebElement element : product_list) {
+        	
+			Common.log("Product Name :"+element.getText());
+			
+			if(StringUtils.containsIgnoreCase(element.getText(),
+					PackageIndexpage.category_label_str.substring(0, 6))) {
+				flag--;
+			}
+		}
+		
+		System.out.println("Flag ="+flag);
+		
+		if(flag<3)
+			return true;
+		else
+		return false;
 	}
 
 }
