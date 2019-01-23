@@ -5,33 +5,27 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
-import java.util.Set;
 
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
-import com.automation.index.PackageIndex;
 import com.automation.indexpage.PackageIndexpage;
 import com.automation.init.AbstractPage;
 import com.automation.utility.Common;
-import com.automation.utility.TestData;
-import com.sun.imageio.plugins.common.SubImageInputStream;
-import com.automation.utility.Common;
-import org.apache.commons.lang3.StringUtils;
 //import com.init.Common;
 
 public class PackageVerification extends AbstractPage {
 
 	public static String Sendername;
+	
 
 	public PackageVerification(WebDriver driver) {
 		super(driver);
@@ -405,10 +399,77 @@ public class PackageVerification extends AbstractPage {
 		
 		System.out.println("Flag ="+flag);
 		
-		if(flag<3)
+		if(flag==0)
 			return true;
 		else
 		return false;
+	}
+
+	public boolean Manufacturer_shoping_option() {
+		// TODO Auto-generated method stub
+		
+		int flag = product_list.size();
+        System.out.println("Flag ="+flag);
+        
+        Common.log("String to match :"+PackageIndexpage.manufacturer_label_str.substring(0, 10));
+		
+        for(WebElement element : product_list) {
+        	
+			Common.log("Product Name :"+element.getText());
+			
+			if(StringUtils.containsIgnoreCase(element.getText(),
+					PackageIndexpage.manufacturer_label_str.substring(0, 6))) {
+				flag--;
+			}
+		}
+		
+		System.out.println("Flag ="+flag);
+		
+		if(flag==0)
+			return true;
+		else
+		return false;
+	}
+
+	
+@FindBy(xpath="//span[@class='price']")private List<WebElement> prices_sortby;	
+	public boolean sortby_ascending() {
+		// TODO Auto-generated method stub
+		int flag =0;
+		for(int i=1;i<prices_sortby.size();i=i+2) {
+			Common.log("---> Product Price :"+prices_sortby.get(i).getText()+" <---");
+			
+			if(i==prices_sortby.size()-1) {
+				break;
+			}
+			int indx1;
+			
+			indx1 = prices_sortby.get(i).getText().indexOf(".");
+			String value1 =prices_sortby.get(i).getText().substring(0, indx1).replace("£", "").trim().replace(",", "").trim();
+			Common.log("---> Value1 :"+value1+" <---");
+			
+			indx1 = prices_sortby.get(i+2).getText().indexOf(".");
+			String value2 =prices_sortby.get(i+2).getText().substring(0, indx1).replace("£", "").trim().replace(",", "").trim();
+			Common.log("---> Value2 :"+value2+" <---");
+			
+			int val1 = Integer.parseInt(value1);
+			int val2 = Integer.parseInt(value2);
+			
+			/*int sum = val1+val2;
+			System.out.println(prices_sortby.size()%2);
+*/			
+			if(val1<=val2) {
+				flag++;
+			}
+		}
+		
+	   Common.log("Flag = " +flag);	
+	   System.out.println(prices_sortby.size()%2);
+	   
+       if(flag>=(prices_sortby.size()%2)-2)
+    	   return true;
+       else 
+    	   return false;
 	}
 
 }

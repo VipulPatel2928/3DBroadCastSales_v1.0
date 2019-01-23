@@ -3,6 +3,7 @@ package com.automation.index;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.automation.indexpage.PackageIndexpage;
 import com.automation.init.SeleniumInit;
@@ -14,6 +15,7 @@ import com.automation.utility.TestData;
 public class PackageIndex extends SeleniumInit {
 
 	public static int step, numberOfFailure = 1;
+	SoftAssert softassertion= new SoftAssert();
 
 	@Test
 	public void TC_SignUp_01() {
@@ -154,15 +156,48 @@ public class PackageIndex extends SeleniumInit {
 
 			Common.logStatus("Pass");
 			Common.AssertPassed();
-			Assert.assertTrue(true);
+			//Assert.assertTrue(true);
+			softassertion.assertTrue(true);
 		} else {
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_Category_Failed");
+			//Assert.assertTrue(false);
+			softassertion.assertTrue(false);
+		}
+		
+		Common.logstep("Step" + (step++) + ": Click on any [Manufacturer]");
+		packageVerification = packageIndexpage.manufacturer();
+		
+		if (packageVerification.Manufacturer_shoping_option()) {
+
+			Common.logStatus("Pass");
+			Common.AssertPassed();
+			Assert.assertTrue(true);
+		} else {
+			Common.logStatus("Fail");
+			Common.AssertFailed();
+			Common.makeScreenshot(driver, "MenuPage_Manufacture_Failed");
 			Assert.assertTrue(false);
 		}
 		
+		Common.logstep("Step" + (step++) + ": Click on Sort By option : Price : Ascending");
+		packageVerification = packageIndexpage.sortby();
 		
+		if (packageVerification.sortby_ascending()) {
+
+			Common.logStatus("Pass");
+			Common.AssertPassed();
+			Assert.assertTrue(true);
+		} else {
+			Common.logStatus("Fail");
+			Common.AssertFailed();
+			Common.makeScreenshot(driver, "MenuPage_sortby_ascending_Failed");
+			//Assert.assertTrue(false);
+			softassertion.assertTrue(false);
+		}
+		
+		//softassertion.assertAll();
 	}// End of TC_Menu_Page_03 function
 
 }// End of Class

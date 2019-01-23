@@ -7,12 +7,14 @@ import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.automation.init.AbstractPage;
@@ -27,6 +29,7 @@ public class PackageIndexpage extends AbstractPage{
 	public static String email_address = null;
 	public static String password = null;
 	public static String category_label_str = null;
+	public static String manufacturer_label_str = null;
 	
 	public PackageIndexpage(WebDriver driver) {
 		super(driver);
@@ -230,6 +233,69 @@ public class PackageIndexpage extends AbstractPage{
 		Common.log("---> Click on :"+category_label_str+" Category <---");
 		category.get(0).click();
 		Common.pause(5);
+		return new PackageVerification(driver);
+	}
+
+	@FindBy(xpath="//input[@name='amshopby[manufacturer][]']")private List<WebElement> manufacturer;
+	@FindBy(xpath="//input[@name='amshopby[manufacturer][]']//../span[@class='label']")private List<WebElement> manufacturer_label;
+	
+	public PackageVerification manufacturer() {
+		// TODO Auto-generated method stub
+		Common.pause(5);
+		manufacturer_label_str = manufacturer_label.get(0).getText();
+		Common.log("---> Click on :"+manufacturer_label_str+" Category <---");
+		manufacturer.get(0).click();
+		Common.pause(5);
+		return new PackageVerification(driver);
+	}
+
+	@FindBy(xpath="//select[@id='sorter']")private List<WebElement> sort_by_options;
+	@FindBy(xpath="//a[contains(text(),'PRICE PROMISE ')]")private WebElement price_promise;
+	@FindBy(xpath="//*[@id=\"amasty-shopby-product-list\"]/div[1]/div[4]/a")private WebElement price_ascending_descending;
+	
+	public PackageVerification sortby() {
+		// TODO Auto-generated method stub
+		/* JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0,1000)");   */
+		    Actions act = new Actions(driver);
+		    act.moveToElement(price_promise, 113, 14).build().perform();
+		
+		    Common.pause(3);
+			Select sel = new Select(sort_by_options.get(0));
+			//sel.selectByValue("position");			
+		    sel.selectByValue("price");
+		    Common.pause(4);
+		    act.moveToElement(price_promise, 113, -10).build().perform();
+		    Common.pause(4);
+		    
+		    price_ascending_descending.click();
+		    Common.pause(10);
+		    
+		    String direction = price_ascending_descending.getAttribute("data-value");
+		    
+		    Common.log("Direction :"+direction);
+		    
+		    if(direction.equalsIgnoreCase("desc")) {
+		  /*  List<WebElement> price_descending = driver.findElements(By.xpath("//a[@title=\"Set Descending Direction\"]"));
+		    new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(price_descending.get(0)));
+		    price_descending.get(0).click();*/
+		    	Common.jsClick(driver, price_ascending_descending);
+			Common.pause(10);
+		    }		    
+		    
+		    if(direction.equalsIgnoreCase("asc")) {
+		    /*List<WebElement> price_ascending = driver.findElements(By.xpath("//a[@title=\"Set Ascending Direction\"]"));	
+		    new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(price_ascending.get(0)));
+		    price_ascending.get(0).click();*/
+		    	Common.jsClick(driver, price_ascending_descending);
+		    }
+		    /*else {
+		    List<WebElement> price_descending = driver.findElements(By.xpath("//a[@title=\"Set Descending Direction\"]"));	
+		    price_descending.get(0).click();
+			Common.pause(5);
+		    }*/
+		    act.moveToElement(price_promise, 113, -10).build().perform();		    
+		    Common.pause(15);
 		return new PackageVerification(driver);
 	}
 
