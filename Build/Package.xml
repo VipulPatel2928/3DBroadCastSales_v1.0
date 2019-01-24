@@ -62,7 +62,7 @@
 		</classes>
 	</test>
 	
-	<test name="TC_Menu_Page_03: Verify Any Menu page Functionalities">
+	<!-- <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities">
 		<classes>
 			<class name="com.automation.index.PackageIndex">
 				<methods>
@@ -71,7 +71,7 @@
 			</class>
 		</classes>
 	</test>
-
+ -->
 
 </suite>
  

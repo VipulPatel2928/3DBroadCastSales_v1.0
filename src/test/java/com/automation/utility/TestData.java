@@ -68,7 +68,7 @@ public class TestData {
 	}
 
 	
-	
+	//this function is used to change the value of the Excel sheet cell as per Test Result
 	public static void SheetResultcellupdate(int row_no,int cell_no,String value) {
 		
 		
@@ -121,6 +121,73 @@ public class TestData {
 		}
 		
 	}
+	
+	
+	//this function set the all Test result to skipped before updating the Test Result Sheet
+	
+public static void SheetResultcellupdatetoskipped(int row) {
+		
+		String dataFilePath = "Resources/[3DBroadCastSales]-Script_Result.xlsx";
+		File datafile = new File(dataFilePath);
+		String fullpath = datafile.getAbsolutePath();
+		Sheet firstSheet = null;
+
+		try {
+					
+			//System.out.println("full path " + datafile.getAbsolutePath() + " con " + datafile.getCanonicalPath());
+
+			FileInputStream inputStream = new FileInputStream(new File(fullpath));
+			Workbook workbook = new XSSFWorkbook(inputStream);
+			firstSheet = workbook.getSheetAt(1);
+			
+			 Cell cell2Update = firstSheet.getRow(row).getCell(3);
+			 cell2Update.setCellValue("Skipped");
+			
+			inputStream.close();			
+			
+			FileOutputStream output_file =new FileOutputStream(new File(fullpath)); 
+			workbook.write(output_file);
+			workbook.close();
+			output_file.close();
+			
+			System.out.println("All Sheet Cells Updated to Skipped Status");
+
+		} catch (Exception e) {
+
+		}
+		
+	}
+	
+//this function is calling the SheetResultcellupdatetoskipped function as per number of row
+public static void getnumberofrow() {
+	
+	String dataFilePath = "Resources/[3DBroadCastSales]-Script_Result.xlsx";
+	File datafile = new File(dataFilePath);
+	String fullpath = datafile.getAbsolutePath();
+	Sheet firstSheet = null;
+
+	try {
+				
+		System.out.println("full path " + datafile.getAbsolutePath() + " con " + datafile.getCanonicalPath());
+
+		FileInputStream inputStream = new FileInputStream(new File(fullpath));
+		Workbook workbook = new XSSFWorkbook(inputStream);
+		firstSheet = workbook.getSheetAt(1);
+		int noofrow = firstSheet.getLastRowNum();
+		System.out.println("Number of rows :" +noofrow);
+		inputStream.close();	
+		for(int i =1;i<noofrow;i++) {
+			SheetResultcellupdatetoskipped(i);
+		}
+		
+		
+	} catch (Exception e) {
+
+	}
+	
+}
+	
+	
 	
 	
 	public static String getURL() {

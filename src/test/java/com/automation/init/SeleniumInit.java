@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -19,9 +18,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.ie.InternetExplorerOptions;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -31,6 +27,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.internal.Utils;
 
@@ -79,11 +76,18 @@ public class SeleniumInit {
 			
 	public static final String URL1 = "https://www.youtube.com/";
 	
+	@BeforeSuite()
+	public void sheetupdate() {
+		System.out.println("Excel Sheet Updated for the Latest Result.........");
+		TestData.getnumberofrow();  
+	}
+	
+	
 	@BeforeTest(alwaysRun = true)
 	public void fetchSuiteConfiguration(ITestContext testContext) {
 
 		testUrl = TestData.getURL();
-
+		
 		seleniumHub = testContext.getCurrentXmlTest().getParameter("selenium.host");
 		seleniumHubPort = testContext.getCurrentXmlTest().getParameter("selenium.port");
 		targetBrowser = testContext.getCurrentXmlTest().getParameter("selenium.browser");
