@@ -49,7 +49,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test> -->
 
 
 	<test name="TC_LogIn_02: Verify User LogIn functionality">
@@ -60,7 +60,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test> -->
+	</test>
 	
 	<test name="TC_Menu_Page_03: Verify Any Menu page Functionalities">
 		<classes>

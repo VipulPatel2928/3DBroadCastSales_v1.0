@@ -149,9 +149,7 @@ public class PackageIndexpage extends AbstractPage{
 
             while((line = bufferedReader.readLine()) != null) {
             	
-                System.out.println(line);
-                          
-                	
+               // System.out.println(line);
                 	if (i==0) 
                 	{
                 		 email_address = line;

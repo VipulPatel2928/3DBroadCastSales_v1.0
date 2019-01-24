@@ -53,11 +53,14 @@ public class PackageIndex extends SeleniumInit {
 
 			Common.logStatus("Pass");
 			Common.AssertPassed();
+			TestData.SheetResultcellupdate(1, 3, "Pass");
 			Assert.assertTrue(true);
+			
 		} else {
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "SignUpFailed");
+			TestData.SheetResultcellupdate(1, 3, "Failed");
 			Assert.assertTrue(false);
 		}
 
@@ -95,11 +98,14 @@ public class PackageIndex extends SeleniumInit {
 		Common.logstep("Step" + (step++) + ": User Login verification.");
 
 		if (packageVerification.logindetailsverification()) {
-
+			System.out.println("Test Pass.......");
+			TestData.SheetResultcellupdate(2, 3, "Pass");
 			Common.logStatus("Pass");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
+			System.out.println("Test Failed.......");
+			TestData.SheetResultcellupdate(2, 3, "Failed");
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "LoginFailed");
@@ -111,7 +117,7 @@ public class PackageIndex extends SeleniumInit {
 	@Test
 	public void TC_Menu_Page_03() {
 		step = 1;
-
+        int flag =0; 
 		Common.logcase(" ");
 
 		Common.logcase("Verify Any Menu page with Below Functionality.");
@@ -126,6 +132,7 @@ public class PackageIndex extends SeleniumInit {
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
+			flag++;
 			Common.log("=====> 3dbroadcastsales home page open <=====");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_HomePage_open_Failed");
@@ -138,27 +145,32 @@ public class PackageIndex extends SeleniumInit {
 		packageVerification = packageIndexpage.cinematic_cameras();
 		
 		if (packageVerification.pageandproductdetailsverification()) {
-
+			System.out.println("Test Pass.......");
 			Common.logStatus("Pass");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
+			flag++;
+			System.out.println("Test Failed.......");
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_Product_Details_Failed");
-			Assert.assertTrue(false);
+			//Assert.assertTrue(false);
+			softassertion.assertTrue(false);
 		}
 		
 		Common.logstep("Step" + (step++) + ": Click on any [Category]");
 		packageVerification = packageIndexpage.category();
 		
 		if (packageVerification.category_shoping_option()) {
-
+			System.out.println("Test Pass.......");
 			Common.logStatus("Pass");
 			Common.AssertPassed();
 			//Assert.assertTrue(true);
 			softassertion.assertTrue(true);
 		} else {
+			flag++;
+			System.out.println("Test Failed.......");
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_Category_Failed");
@@ -170,26 +182,31 @@ public class PackageIndex extends SeleniumInit {
 		packageVerification = packageIndexpage.manufacturer();
 		
 		if (packageVerification.Manufacturer_shoping_option()) {
-
+			System.out.println("Test Pass.......");
 			Common.logStatus("Pass");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
+			flag++;
+			System.out.println("Test Failed.......");
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_Manufacture_Failed");
-			Assert.assertTrue(false);
+			//Assert.assertTrue(false);
+			softassertion.assertTrue(false);
 		}
 		
 		Common.logstep("Step" + (step++) + ": Click on Sort By option : Price : Ascending");
 		packageVerification = packageIndexpage.sortby();
 		
 		if (packageVerification.sortby_ascending()) {
-
+			System.out.println("Test Pass.......");
 			Common.logStatus("Pass");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
+			flag++;
+			System.out.println("Test Failed.......");
 			Common.logStatus("Fail");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_sortby_ascending_Failed");
@@ -197,6 +214,9 @@ public class PackageIndex extends SeleniumInit {
 			softassertion.assertTrue(false);
 		}
 		
+		if(flag>0) {
+			TestData.SheetResultcellupdate(3, 3, "Failed");
+		}
 		//softassertion.assertAll();
 	}// End of TC_Menu_Page_03 function
 

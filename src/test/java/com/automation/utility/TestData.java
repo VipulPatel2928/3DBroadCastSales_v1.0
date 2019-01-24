@@ -2,6 +2,7 @@ package com.automation.utility;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -66,6 +67,62 @@ public class TestData {
 		return firstSheet;
 	}
 
+	
+	
+	public static void SheetResultcellupdate(int row_no,int cell_no,String value) {
+		
+		
+		/*FileInputStream fsIP= new FileInputStream(new File("C:\\TechartifactExcel.xls")); //Read the spreadsheet that needs to be updated
+        
+        HSSFWorkbook wb = new HSSFWorkbook(fsIP); //Access the workbook
+          
+        HSSFSheet worksheet = wb.getSheetAt(0); //Access the worksheet, so that we can update / modify it.
+          
+        Cell cell = null; // declare a Cell object
+        
+        cell = worksheet.getRow(2).getCell(2);   // Access the second cell in second row to update the value
+          
+        cell.setCellValue("OverRide Last Name");  // Get current cell value value and overwrite the value
+          
+        fsIP.close(); //Close the InputStream
+         
+        FileOutputStream output_file =new FileOutputStream(new File("C:\\TechartifactExcel.xls"));  //Open FileOutputStream to write updates
+          
+        wb.write(output_file); //write changes
+          
+        output_file.close();  //close the stream    
+*/
+
+		String dataFilePath = "Resources/[3DBroadCastSales]-Script_Result.xlsx";
+		File datafile = new File(dataFilePath);
+		String fullpath = datafile.getAbsolutePath();
+		Sheet firstSheet = null;
+
+		try {
+					
+			System.out.println("full path " + datafile.getAbsolutePath() + " con " + datafile.getCanonicalPath());
+
+			FileInputStream inputStream = new FileInputStream(new File(fullpath));
+
+			Workbook workbook = new XSSFWorkbook(inputStream);
+			firstSheet = workbook.getSheetAt(1);
+			
+			Cell cell2Update = firstSheet.getRow(row_no).getCell(cell_no);
+			cell2Update.setCellValue(value);
+			inputStream.close();			
+			FileOutputStream output_file =new FileOutputStream(new File(fullpath)); 
+			workbook.write(output_file);
+			workbook.close();
+			output_file.close();
+			System.out.println("Sheet Cell Value is Updated");
+
+		} catch (Exception e) {
+
+		}
+		
+	}
+	
+	
 	public static String getURL() {
 
 		System.out.println("Call getURL.......");

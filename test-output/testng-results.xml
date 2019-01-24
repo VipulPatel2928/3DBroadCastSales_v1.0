@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify That user is able to Login with the valid details</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step2: Click on the Login menu</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : vQng@mailinator.com <===</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : hfZcu@1234 <===</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step5: User Login verification.</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>===> Account Information Verification <===</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Click on Account Menu ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
     <line>
       <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
     </line>
@@ -506,23 +554,117 @@
       <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
     </line>
   </reporter-output>
-  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="111342" started-at="2019-01-23T17:39:46Z" finished-at="2019-01-23T17:41:38Z">
+  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="212768" started-at="2019-01-24T15:42:15Z" finished-at="2019-01-24T15:45:48Z">
     <groups>
     </groups>
-    <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities" duration-ms="111342" started-at="2019-01-23T17:39:46Z" finished-at="2019-01-23T17:41:38Z">
+    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="103444" started-at="2019-01-24T15:42:15Z" finished-at="2019-01-24T15:43:58Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1146" started-at="2019-01-23T17:39:46Z" finished-at="2019-01-23T17:39:48Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="fetchSuiteConfiguration" is-config="true" duration-ms="872" started-at="2019-01-24T15:42:15Z" finished-at="2019-01-24T15:42:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a1c0542]]>
+                <![CDATA[org.testng.TestRunner@167fdd33]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="setUp" is-config="true" duration-ms="12411" started-at="2019-01-23T17:39:48Z" finished-at="2019-01-23T17:40:00Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="setUp" is-config="true" duration-ms="12636" started-at="2019-01-24T15:42:16Z" finished-at="2019-01-24T15:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.index.PackageIndex.TC_LogIn_02()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@167fdd33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="TC_LogIn_02" duration-ms="79087" started-at="2019-01-24T15:42:28Z" finished-at="2019-01-24T15:43:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify That user is able to Login with the valid details</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step2: Click on the Login menu</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : vQng@mailinator.com <===</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : hfZcu@1234 <===</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step5: User Login verification.</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>===> Account Information Verification <===</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Click on Account Menu ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LogIn_02 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="tearDown" is-config="true" duration-ms="10831" started-at="2019-01-24T15:43:47Z" finished-at="2019-01-24T15:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_LogIn_02 status=SUCCESS method=PackageIndex.TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@3632be31] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.index.PackageIndex -->
+    </test> <!-- TC_LogIn_02: Verify User LogIn functionality -->
+    <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities" duration-ms="109298" started-at="2019-01-24T15:43:58Z" finished-at="2019-01-24T15:45:48Z">
+      <class name="com.automation.index.PackageIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="fetchSuiteConfiguration" is-config="true" duration-ms="35" started-at="2019-01-24T15:43:58Z" finished-at="2019-01-24T15:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e965684]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="setUp" is-config="true" duration-ms="11054" started-at="2019-01-24T15:43:58Z" finished-at="2019-01-24T15:44:09Z">
           <params>
             <param index="0">
               <value>
@@ -531,14 +673,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5a1c0542]]>
+                <![CDATA[org.testng.TestRunner@1e965684]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="TC_Menu_Page_03" duration-ms="86968" started-at="2019-01-23T17:40:00Z" finished-at="2019-01-23T17:41:27Z">
+        <test-method status="PASS" signature="TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="TC_Menu_Page_03" duration-ms="87374" started-at="2019-01-24T15:44:09Z" finished-at="2019-01-24T15:45:37Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
@@ -1046,11 +1188,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_Menu_Page_03 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@3632be31]" name="tearDown" is-config="true" duration-ms="10798" started-at="2019-01-23T17:41:27Z" finished-at="2019-01-23T17:41:38Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="tearDown" is-config="true" duration-ms="10831" started-at="2019-01-24T15:45:37Z" finished-at="2019-01-24T15:45:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_Menu_Page_03 status=SUCCESS method=PackageIndex.TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@3632be31] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
+                <![CDATA[[TestResult name=TC_Menu_Page_03 status=SUCCESS method=PackageIndex.TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
               </value>
             </param>
           </params>

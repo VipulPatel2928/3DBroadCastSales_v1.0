@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-3DBroadCastSales_Functional_Test_Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-3DBroadCastSales_Functional_Test_Suite" class="show-methods passed suite-3DBroadCastSales_Functional_Test_Suite"> (show)</a> <!-- show-methods passed suite-3DBroadCastSales_Functional_Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-3DBroadCastSales_Functional_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-3DBroadCastSales_Functional_Test_Suite" title="com.automation.index.PackageIndex" hash-for-method="TC_LogIn_02">TC_LogIn_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-3DBroadCastSales_Functional_Test_Suite" title="com.automation.index.PackageIndex" hash-for-method="TC_Menu_Page_03">TC_Menu_Page_03</a> <!-- method navigator-link -->
@@ -123,6 +128,13 @@
               <span class="class-name">com.automation.index.PackageIndex</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_LogIn_02">
+                  </a> <!-- TC_LogIn_02 -->
+                  <span class="method-name">TC_LogIn_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="TC_Menu_Page_03">
@@ -156,6 +168,15 @@
     &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestskipDetails&quot;/&gt;
     &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestDetails&quot;/&gt;
   &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;TC_LogIn_02: Verify User LogIn functionality&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.index.PackageIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC_LogIn_02&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.index.PackageIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_LogIn_02: Verify User LogIn functionality --&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;TC_Menu_Page_03: Verify Any Menu page Functionalities&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.automation.index.PackageIndex&quot;&gt;
@@ -175,6 +196,9 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
+              <li>
+                <span class="test-name">TC_LogIn_02: Verify User LogIn functionality (1 class)</span>
+              </li>
               <li>
                 <span class="test-name">TC_Menu_Page_03: Verify Any Menu page Functionalities (1 class)</span>
               </li>
@@ -202,16 +226,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TC_Menu_Page_03')
 data.setCell(0, 2, 'com.automation.index.PackageIndex')
-data.setCell(0, 3, 86968);
+data.setCell(0, 3, 87374);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_LogIn_02')
+data.setCell(1, 2, 'com.automation.index.PackageIndex')
+data.setCell(1, 3, 79087);
 window.suiteTableData['3DBroadCastSales_Functional_Test_Suite']= { tableData: data, tableDiv: 'times-div-3DBroadCastSales_Functional_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-3DBroadCastSales_Functional_Test_Suite">
               </div> <!-- times-div-3DBroadCastSales_Functional_Test_Suite -->
             </div> <!-- times-div -->
@@ -222,6 +250,27 @@ return data;
             <span class="header-content">Reporter output for 3DBroadCastSales_Functional_Test_Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_LogIn_02</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet">  </h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> To verify That user is able to Login with the valid details</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step2: Click on the Login menu</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step3: Enter the Details for Login</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : vQng@mailinator.com <===</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : hfZcu@1234 <===</br></span>
+                <span class="reporter-method-output"><br><strong>Step4: Click on Login button</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step5: User Login verification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>===> Account Information Verification <===</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;--- Click on Account Menu ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">TC_Menu_Page_03</span>
               <div class="reporter-method-output-div">
@@ -399,13 +448,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-3DBroadCastSales_Functional_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.automation.index.PackageIndex</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC_Menu_Page_03</span>
+                <br/>
                 <span class="ignored-method-name">TC_LogIn_02</span>
+                <br/>
+                <span class="ignored-method-name">TC_SignUp_01</span>
                 <br/>
                 <span class="ignored-method-name">TC_SignUp_01</span>
                 <br/>
@@ -421,20 +474,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.automation.index.PackageIndex</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@5a1c0542)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@167fdd33)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.automation.index.PackageIndex.TC_Menu_Page_03(), org.testng.TestRunner@5a1c0542)</span>
-                <span class="method-start">1164 ms</span>
+                <span class="method-name">setUp(public void com.automation.index.PackageIndex.TC_LogIn_02(), org.testng.TestRunner@167fdd33)</span>
+                <span class="method-start">886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_LogIn_02</span>
+                <span class="method-start">13522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_LogIn_02 status=SUCCESS method=PackageIndex.TC_LogIn_02()[pri:0, instance:com.au...)</span>
+                <span class="method-start">92610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@1e965684)</span>
+                <span class="method-start">103469 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.automation.index.PackageIndex.TC_Menu_Page_03(), org.testng.TestRunner@1e965684)</span>
+                <span class="method-start">103506 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_Menu_Page_03</span>
-                <span class="method-start">13575 ms</span>
+                <span class="method-start">114560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=TC_Menu_Page_03 status=SUCCESS method=PackageIndex.TC_Menu_Page_03()[pri:0, instanc...)</span>
-                <span class="method-start">100544 ms</span>
+                <span class="method-start">201936 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
