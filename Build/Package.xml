@@ -41,7 +41,7 @@
 			class-name="com.automation.utility.CustomReporterTestDetails" />
 	</listeners>
 
-	<!-- <test name="TC_SignUp_01: Verify User SignUp functionality">
+	<test name="TC_SignUp_01: Verify User SignUp functionality">
 		<classes>
 			<class name="com.automation.index.PackageIndex">
 				<methods>
@@ -49,7 +49,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test> -->
+	</test>
 
 
 	<test name="TC_LogIn_02: Verify User LogIn functionality">
@@ -62,7 +62,7 @@
 		</classes>
 	</test>
 	
-	<!-- <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities">
+	<test name="TC_Menu_Page_03: Verify Any Menu page Functionalities">
 		<classes>
 			<class name="com.automation.index.PackageIndex">
 				<methods>
@@ -71,7 +71,7 @@
 			</class>
 		</classes>
 	</test>
- -->
+
 
 </suite>
  
