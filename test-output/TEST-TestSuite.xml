@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="277.706" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="228.036" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\admin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9136414107526041713.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\admin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4047993102498055762.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\Dell\Dell Data Protection\Access\Advanced\Wave\Gemalto\Access Client\v5\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\nodejs\;C:\Vipul_testing\Mobile_automation\android-sdk-windows\platform-tools;C:\Vipul_testing\Mobile_automation\android-sdk-windows\tools;C:\Vipul_testing\Mobile_automation\android-sdk-windows\build-tools\28.0.0-preview;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC_SignUp_01" classname="com.automation.index.PackageIndex" time="112.209"/>
-  <testcase name="TC_LogIn_02" classname="com.automation.index.PackageIndex" time="79.122"/>
-  <testcase name="TC_Menu_Page_03" classname="com.automation.index.PackageIndex" time="86.375"/>
+  <testcase name="TC_Wish_Compare_04" classname="com.automation.index.PackageIndex" time="228.036"/>
 </testsuite>

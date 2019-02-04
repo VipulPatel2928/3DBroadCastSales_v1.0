@@ -25,23 +25,11 @@ import com.automation.utility.Common;
 public class PackageVerification extends AbstractPage {
 
 	public static String Sendername;
+	public static int items_per_page_var=0;
 	
-
 	public PackageVerification(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
-	}
-
-	public boolean verifyLogin() {
-		// TODO Auto-generated method stub
-		// Common.waitForElement(driver, fullUserName);
-
-		// Common.log(fullUserName.getText());
-		// if (fullUserName.getText().trim().equalsIgnoreCase(TestData.getSenderName()))
-		// {
-		return true;
-
-		// return false;
 	}
 
 	public boolean homepageverify() {
@@ -218,6 +206,8 @@ public class PackageVerification extends AbstractPage {
 		// TODO Auto-generated method stub
 
 		Common.logstep("===> Account Information Verification <===");
+		Common.pause(8);
+		new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(account_menu));
 		account_menu.click();
 		Common.log("--- Click on Account Menu ---");
 
@@ -246,132 +236,122 @@ public class PackageVerification extends AbstractPage {
 	private WebElement category;
 	@FindBy(xpath = "//strong[contains(text(),'Shopping Options')]//..//div//div//div[1][contains(text(),'Manufacturer')]")
 	private WebElement manufacturer;
-	@FindBy(xpath="//a[@class='product-item-link']")private List<WebElement> products;
-	@FindBy(xpath="//span[@class='price']")private List<WebElement> prices;
-	@FindBy(xpath="//span[contains(text(),'Add to Basket')]")private List<WebElement> addtobasket;
-	@FindBy(xpath="//img[@class='product-image-photo']")private List<WebElement> products_images;
-	@FindBy(xpath="//span[@class='icon ib ib-hover ic ic-heart ']")private List<WebElement> wishlist; 
-	@FindBy(xpath="//span[@class='icon ib ib-hover ic ic-compare ']")private List<WebElement> compare;
-	
-	
-	/*@FindBy(xpath="//a[@class='product-item-link']")private List<WebElement> products_size;
-	@FindBy(xpath="//span[@class='price']")private List<WebElement> prices_size;
-	@FindBy(xpath="//span[contains(text(),'Add to Basket')]")private List<WebElement> addtobasket_size;
-	@FindBy(xpath="//img[@class='product-image-photo']")private List<WebElement> products_images_size;
-	@FindBy(xpath="//span[@class='icon ib ib-hover ic ic-heart ']")private List<WebElement> wishlist_size; 
-	@FindBy(xpath="//span[@class='icon ib ib-hover ic ic-compare ']")private List<WebElement> compare_size;
-	*/
+	@FindBy(xpath = "//a[@class='product-item-link']")
+	private List<WebElement> products;
+	@FindBy(xpath = "//span[@class='price']")
+	private List<WebElement> prices;
+	@FindBy(xpath = "//span[contains(text(),'Add to Basket')]")
+	private List<WebElement> addtobasket;
+	@FindBy(xpath = "//img[@class='product-image-photo']")
+	private List<WebElement> products_images;
+	@FindBy(xpath = "//span[@class='icon ib ib-hover ic ic-heart ']")
+	private List<WebElement> wishlist;
+	@FindBy(xpath = "//span[@class='icon ib ib-hover ic ic-compare ']")
+	private List<WebElement> compare;
 
 	public boolean pageandproductdetailsverification() {
 		// TODO Auto-generated method stub
-		
+
 		int flag = 0;
 
-		
-		//flag=1
+		// flag=1
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(pagename));
 		if (pagename.isDisplayed()) {
 			Common.log("---> Page Name has been Verified <---");
 			flag++;
 		}
-		
-		//flag=2
+
+		// flag=2
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(category));
 		if (category.isDisplayed()) {
 			Common.log("---> Shopping Options [Category] is Displayed <---");
 			flag++;
 		}
-		
-		//flag=3
+
+		// flag=3
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(manufacturer));
 		if (manufacturer.isDisplayed()) {
 			Common.log("---> Shopping Options [Manufaturer] is Displayed <--");
 			flag++;
 		}
-		
-		//flag=4
+
+		// flag=4
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfAllElements(products));
-		if(!products.isEmpty()) {			
-			Common.log("---> Product Name is :"+products.get(0).getText()+" <---");
+		if (!products.isEmpty()) {
+			Common.log("---> Product Name is :" + products.get(0).getText() + " <---");
 			Common.log("---> Product Name is Dispayed <---");
 			flag++;
 		}
-		
-		//flag=5
+
+		// flag=5
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfAllElements(prices));
-		if(!prices.isEmpty()) {
-			Common.log("---> Product Price[inc VAT] is :"+prices.get(0).getText()+" <---");
-			Common.log("---> Product Price[exc VAT] is :"+prices.get(1).getText()+" <---");
+		if (!prices.isEmpty()) {
+			Common.log("---> Product Price[inc VAT] is :" + prices.get(0).getText() + " <---");
+			Common.log("---> Product Price[exc VAT] is :" + prices.get(1).getText() + " <---");
 			Common.log("---> Product price is Dispayed <---");
 			flag++;
-		}	
-		
-		//flag=6
+		}
+
+		// flag=6
 		new WebDriverWait(driver, 2).until(ExpectedConditions.visibilityOfAllElements(addtobasket));
-		if(!addtobasket.isEmpty()) {
+		if (!addtobasket.isEmpty()) {
 			Common.log("---> Product Add to Basket Button is Displayed <---");
 			flag++;
 		}
-		//flag=7
+		// flag=7
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfAllElements(products_images));
-		if(!products_images.isEmpty()) {
+		if (!products_images.isEmpty()) {
 			Common.log("---> Product image is Displayed <---");
 			flag++;
 		}
-		
-		//flag=8
-		if(wishlist.size()>0 && compare.size()>0) {
+
+		// flag=8
+		if (wishlist.size() > 0 && compare.size() > 0) {
 			Common.log("---> Product WishList icon is Displayed <---");
 			Common.log("---> Product Compare icon is Displayed <---");
 			flag++;
 		}
-		
-		//flag=9	
+
+		// flag=9
 		List<WebElement> products_size = driver.findElements(By.xpath("//a[@class='product-item-link']"));
 		List<WebElement> prices_size = driver.findElements(By.xpath("//span[@class='price']"));
 		List<WebElement> addtobasket_size = driver.findElements(By.xpath("//span[contains(text(),'Add to Basket')]"));
 		List<WebElement> products_images_size = driver.findElements(By.xpath("//img[@class='product-image-photo']"));
-		List<WebElement> wishlist_size = driver.findElements(By.xpath("//span[@class='icon ib ib-hover ic ic-heart ']"));
-		List<WebElement> compare_size = driver.findElements(By.xpath("//span[@class='icon ib ib-hover ic ic-compare ']"));
-		
+		List<WebElement> wishlist_size = driver
+				.findElements(By.xpath("//span[@class='icon ib ib-hover ic ic-heart ']"));
+		List<WebElement> compare_size = driver
+				.findElements(By.xpath("//span[@class='icon ib ib-hover ic ic-compare ']"));
+
 		int check = 1;
-		
-		int count = products_size.size();		
-		Common.log("---> Number of items :" +products_size.size()+" <---");
-	    //There are some products with Price On Call 
-		Common.log("---> Number of prices :" +prices_size.size()+" <---");
-		if(count==addtobasket_size.size())
+
+		int count = products_size.size();
+		Common.log("---> Number of items :" + products_size.size() + " <---");
+		// There are some products with Price On Call
+		Common.log("---> Number of prices :" + prices_size.size() + " <---");
+		if (count == addtobasket_size.size())
 			check++;
-		Common.log("---> Number of add to basket button :" +addtobasket_size.size()+" <---");
-		if(count==products_images_size.size())	
+		Common.log("---> Number of add to basket button :" + addtobasket_size.size() + " <---");
+		if (count == products_images_size.size())
 			check++;
-		Common.log("---> Number of images :" +products_images_size.size()+" <---");
-		if(count==wishlist_size.size())
+		Common.log("---> Number of images :" + products_images_size.size() + " <---");
+		if (count == wishlist_size.size())
 			check++;
-		Common.log("---> Number of wishlist icon :" +wishlist_size.size()+" <---");
-		if(count==compare_size.size())
-		    check++;
-		Common.log("---> Number of compare icon :" +compare_size.size()+" <---");
-		
-		
-		
-			
-		if(check==5) {
+		Common.log("---> Number of wishlist icon :" + wishlist_size.size() + " <---");
+		if (count == compare_size.size())
+			check++;
+		Common.log("---> Number of compare icon :" + compare_size.size() + " <---");
+
+		if (check == 5) {
 			Common.log("---> Number of Products||Prices||AddtoBasket Button, Verified<---");
 			Common.log("---> Product Images||WishList||Compare List, Verified <---");
 			Common.log("---> All Products has the above Details/Elements, Verified  <---");
 			flag++;
-		}	
-		
+		}
+
 		Actions image_hover = new Actions(driver);
 		image_hover.moveToElement(products_images.get(0)).build().perform();
 		Common.pause(5);
-		
-		/*category.click();
-		Common.log("---> Click on the Category Shopping options <---");
-		Common.pause(5);*/
-		
-		
+
 		if (flag == 9)
 			return true;
 		else
@@ -379,97 +359,211 @@ public class PackageVerification extends AbstractPage {
 	}
 
 	List<WebElement> product_list = driver.findElements(By.xpath("//a[@class='product-item-link']"));
-	
+
 	public boolean category_shoping_option() {
 		// TODO Auto-generated method stub
 		int flag = product_list.size();
-        System.out.println("Flag ="+flag);
-        
-        Common.log("String to match :"+PackageIndexpage.category_label_str.substring(0, 6));
-		
-        for(WebElement element : product_list) {
-        	
-			Common.log("Product Name :"+element.getText());
-			
-			if(StringUtils.containsIgnoreCase(element.getText(),
+		System.out.println("Flag =" + flag);
+
+		Common.log("String to match :" + PackageIndexpage.category_label_str.substring(0, 6));
+
+		for (WebElement element : product_list) {
+
+			Common.log("Product Name :" + element.getText());
+
+			if (StringUtils.containsIgnoreCase(element.getText(),
 					PackageIndexpage.category_label_str.substring(0, 6))) {
 				flag--;
 			}
 		}
-		
-		System.out.println("Flag ="+flag);
-		
-		if(flag==0)
+
+		System.out.println("Flag =" + flag);
+
+		if (flag == 0)
 			return true;
 		else
-		return false;
+			return false;
 	}
 
 	public boolean Manufacturer_shoping_option() {
 		// TODO Auto-generated method stub
-		
+
 		int flag = product_list.size();
-        System.out.println("Flag ="+flag);
-        
-        Common.log("String to match :"+PackageIndexpage.manufacturer_label_str.substring(0, 10));
-		
-        for(WebElement element : product_list) {
-        	
-			Common.log("Product Name :"+element.getText());
-			
-			if(StringUtils.containsIgnoreCase(element.getText(),
+		System.out.println("Flag =" + flag);
+
+		Common.log("String to match :" + PackageIndexpage.manufacturer_label_str.substring(0, 10));
+
+		for (WebElement element : product_list) {
+
+			Common.log("Product Name :" + element.getText());
+
+			if (StringUtils.containsIgnoreCase(element.getText(),
 					PackageIndexpage.manufacturer_label_str.substring(0, 6))) {
 				flag--;
 			}
 		}
-		
-		System.out.println("Flag ="+flag);
-		
-		if(flag==0)
+
+		System.out.println("Flag =" + flag);
+
+		if (flag == 0)
 			return true;
+		else
+			return false;
+	}
+
+	@FindBy(xpath = "//span[@class='price']")
+	private List<WebElement> prices_sortby;
+
+	public boolean sortby_ascending() {
+		// TODO Auto-generated method stub
+		int flag = prices_sortby.size()/2;
+		Common.log("Flag = " + flag);
+		for (int i = 1; i < prices_sortby.size(); i = i + 2) {
+			Common.log("---> Product Price :" + prices_sortby.get(i).getText() + " <---");
+
+			if (i == prices_sortby.size() - 1) {
+				break;
+			}
+			int indx1;
+
+			indx1 = prices_sortby.get(i).getText().indexOf(".");
+			String value1 = prices_sortby.get(i).getText().substring(0, indx1).replace("£", "").trim().replace(",", "")
+					.trim();
+			Common.log("---> Value1 :" + value1 + " <---");
+
+			indx1 = prices_sortby.get(i + 2).getText().indexOf(".");
+			String value2 = prices_sortby.get(i + 2).getText().substring(0, indx1).replace("£", "").trim()
+					.replace(",", "").trim();
+			// Common.log("---> Value2 :"+value2+" <---");
+
+			int val1 = Integer.parseInt(value1);
+			int val2 = Integer.parseInt(value2);
+
+			/*
+			 * int sum = val1+val2; System.out.println(prices_sortby.size()%2);
+			 */
+
+			if (val1 <= val2) {
+				flag--;
+			}
+		}
+
+		Common.log("Flag = " + flag);
+		System.out.println(prices_sortby.size() % 2);
+
+		if (flag <= 1)
+			return true;
+		else
+			return false;
+	}
+
+	
+	
+	public boolean sortby_descending() {
+		// TODO Auto-generated method stub
+		int flag = prices_sortby.size()/2;
+		Common.log("Flag = " + flag);
+		for (int i = 1; i < prices_sortby.size(); i = i + 2) {
+			Common.log("---> Product Price :" + prices_sortby.get(i).getText() + " <---");
+
+			if (i == prices_sortby.size() - 1) {
+				break;
+			}
+			int indx1;
+
+			indx1 = prices_sortby.get(i).getText().indexOf(".");
+			String value1 = prices_sortby.get(i).getText().substring(0, indx1).replace("£", "").trim().replace(",", "")
+					.trim();
+			Common.log("---> Value1 :" + value1 + " <---");
+
+			indx1 = prices_sortby.get(i + 2).getText().indexOf(".");
+			String value2 = prices_sortby.get(i + 2).getText().substring(0, indx1).replace("£", "").trim()
+					.replace(",", "").trim();
+			// Common.log("---> Value2 :"+value2+" <---");
+
+			int val1 = Integer.parseInt(value1);
+			int val2 = Integer.parseInt(value2);
+
+			/*
+			 * int sum = val1+val2; System.out.println(prices_sortby.size()%2);
+			 */
+
+			if (val1 >= val2) {
+				flag--;
+			}
+		}
+
+		Common.log("Flag = " + flag);
+		if (flag <= 1)
+			return true;
+		else
+			return false;
+	}
+
+	
+	
+	public void itemsperpage(int items) {
+		// TODO Auto-generated method stub
+		List<WebElement> items_list = driver.findElements(By.xpath("//a[@class='product-item-link']"));
+		Common.log("Items Per Page :" + items_list.size());
+		Common.log("Items Per Page in variable :" + items);
+		//System.out.println("items_per_page_var :" +items_per_page_var);
+		if(items_list.size()==items) {
+			items_per_page_var++;
+			System.out.println("items_per_page_var :" +items_per_page_var);
+		}
+	}
+
+	public boolean showperpage_verified() {
+		// TODO Auto-generated method stub
+		if(items_per_page_var==4) 
+		return true;
 		else
 		return false;
 	}
 
 	
-@FindBy(xpath="//span[@class='price']")private List<WebElement> prices_sortby;	
-	public boolean sortby_ascending() {
-		// TODO Auto-generated method stub
-		int flag =0;
-		for(int i=1;i<prices_sortby.size();i=i+2) {
-			Common.log("---> Product Price :"+prices_sortby.get(i).getText()+" <---");
+	
+	public boolean wishlist_verification() {
+		
+		String name=null;
+		String price=null;
+		//List<WebElement> items = driver.findElements(By.xpath("//input[@class='input-text qty']"));
+		List<WebElement> items_list = driver.findElements(By.xpath("//div//ol//li//div//strong[@class=\"product-item-name\"]"));
+		List<WebElement> items_prices =driver.findElements(By.xpath("//span[@class='price']"));
+		int number_items = items_list.size()/2;
+		int flag = number_items;
+		System.out.println("Number of Items and Flag :"+ number_items + " " +flag);
+		
+		
+		/*for(String name1 : PackageIndexpage.name_glob) {
+			System.out.println(name1);
+		}
+		for(String price1 : PackageIndexpage.price_glob) {
+			System.out.println(price1);
+		}
+		*/
+		int j=1;
+		
+		for(int i=0;i<number_items;i++) {
+			name = items_list.get(i).getText();
+			price = items_prices.get(j).getText();
+			j=j+2;
+			Common.log("---> Item :"+ name +" <---");
+			Common.log("---> Price :"+ price+" <---" );
 			
-			if(i==prices_sortby.size()-1) {
-				break;
-			}
-			int indx1;
-			
-			indx1 = prices_sortby.get(i).getText().indexOf(".");
-			String value1 =prices_sortby.get(i).getText().substring(0, indx1).replace("£", "").trim().replace(",", "").trim();
-			Common.log("---> Value1 :"+value1+" <---");
-			
-			indx1 = prices_sortby.get(i+2).getText().indexOf(".");
-			String value2 =prices_sortby.get(i+2).getText().substring(0, indx1).replace("£", "").trim().replace(",", "").trim();
-			Common.log("---> Value2 :"+value2+" <---");
-			
-			int val1 = Integer.parseInt(value1);
-			int val2 = Integer.parseInt(value2);
-			
-			/*int sum = val1+val2;
-			System.out.println(prices_sortby.size()%2);
-*/			
-			if(val1<=val2) {
-				flag++;
+			if(name.equalsIgnoreCase(PackageIndexpage.name_glob[i]) && price.equalsIgnoreCase(PackageIndexpage.price_glob[i])) {
+				Common.log("---> Item :"+ name +" <---");
+				Common.log("---> Price :"+ price+" <---" );
+				flag--;
 			}
 		}
 		
-	   Common.log("Flag = " +flag);	
-	   System.out.println(prices_sortby.size()%2);
-	   
-       if(flag>=(prices_sortby.size()%2)-2)
-    	   return true;
-       else 
-    	   return false;
+		if(flag==0)
+		return true;
+		else
+		return false;
 	}
-
+	
+	
 }

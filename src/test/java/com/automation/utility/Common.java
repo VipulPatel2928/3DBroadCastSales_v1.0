@@ -1128,10 +1128,12 @@ System.out.println("***********************");
 		return (WebElement)je.executeScript("return "+querySelecterString);
 	}
 	
+	
 	public static void moveToElementByJs(WebDriver driver,WebElement element)
 	{
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 	}
+	
 	
 	public static String getTextElementByjs(WebDriver driver,String querySelecterString)
 	{

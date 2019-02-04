@@ -15,28 +15,17 @@
     <listener class-name="com.automation.utility.CustomReporterTestskipDetails"/>
     <listener class-name="com.automation.utility.CustomReporterTestDetails"/>
   </listeners>
-  <test thread-count="1" verbose="0" name="TC_LogIn_02: Verify User LogIn functionality(failed)" parallel="tests">
+  <test thread-count="1" verbose="0" name="TC_Wish_Compare_04: Verify User is able to add the Products into Wish List and Compare List(failed)" parallel="tests">
     <classes>
       <class name="com.automation.index.PackageIndex">
         <methods>
-          <include name="TC_LogIn_02"/>
+          <include name="sheetupdate"/>
+          <include name="TC_Wish_Compare_04"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="fetchSuiteConfiguration"/>
         </methods>
       </class> <!-- com.automation.index.PackageIndex -->
     </classes>
-  </test> <!-- TC_LogIn_02: Verify User LogIn functionality(failed) -->
-  <test thread-count="1" verbose="0" name="TC_Menu_Page_03: Verify Any Menu page Functionalities(failed)" parallel="tests">
-    <classes>
-      <class name="com.automation.index.PackageIndex">
-        <methods>
-          <include name="TC_Menu_Page_03"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="fetchSuiteConfiguration"/>
-        </methods>
-      </class> <!-- com.automation.index.PackageIndex -->
-    </classes>
-  </test> <!-- TC_Menu_Page_03: Verify Any Menu page Functionalities(failed) -->
+  </test> <!-- TC_Wish_Compare_04: Verify User is able to add the Products into Wish List and Compare List(failed) -->
 </suite> <!-- Failed suite [3DBroadCastSales_Functional_Test_Suite] -->
