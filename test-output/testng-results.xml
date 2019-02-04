@@ -23,22 +23,22 @@
       <![CDATA[<br><strong>Step3: Enter the Details for the SignUp</strong></br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :===>QRTfd</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :===>NaAVl</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :===>kLCZj</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :===>XMNhn</br>]]>
     </line>
     <line>
       <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on the Sign Up for Newsletter check box</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :===>WaAb@mailinator.com</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :===>XXgh@mailinator.com</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :===>mckWR@1234</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :===>ZYFZF@1234</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :===>mckWR@1234</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :===>ZYFZF@1234</br>]]>
     </line>
     <line>
       <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Remember Me What's this? check box</br>]]>
@@ -68,7 +68,7 @@
       <![CDATA[<br><strong>===> Open Mailinator for Email Verification <===</strong></br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Enter Email Id :WaAb@mailinator.com ---</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Enter Email Id :XXgh@mailinator.com ---</br>]]>
     </line>
     <line>
       <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- First name and Last Name verified in Email. ---</br>]]>
@@ -107,10 +107,10 @@
       <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : XXgh@mailinator.com <===</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : ZYFZF@1234 <===</br>]]>
     </line>
     <line>
       <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
@@ -791,10 +791,10 @@
       <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : XXgh@mailinator.com <===</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : ZYFZF@1234 <===</br>]]>
     </line>
     <line>
       <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
@@ -884,23 +884,23 @@
       <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
     </line>
   </reporter-output>
-  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="719870" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:56:53Z">
+  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="703708" started-at="2019-02-04T13:39:53Z" finished-at="2019-02-04T13:51:37Z">
     <groups>
     </groups>
-    <test name="TC_SignUp_01: Verify User SignUp functionality" duration-ms="148489" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:47:22Z">
+    <test name="TC_SignUp_01: Verify User SignUp functionality" duration-ms="139596" started-at="2019-02-04T13:39:53Z" finished-at="2019-02-04T13:42:13Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="fetchSuiteConfiguration" is-config="true" duration-ms="30" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:44:53Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="fetchSuiteConfiguration" is-config="true" duration-ms="142" started-at="2019-02-04T13:39:53Z" finished-at="2019-02-04T13:39:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24dc150c]]>
+                <![CDATA[org.testng.TestRunner@4e96cb04]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="setUp" is-config="true" duration-ms="26324" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:45:20Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="setUp" is-config="true" duration-ms="14700" started-at="2019-02-04T13:39:53Z" finished-at="2019-02-04T13:40:08Z">
           <params>
             <param index="0">
               <value>
@@ -909,14 +909,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@24dc150c]]>
+                <![CDATA[org.testng.TestRunner@4e96cb04]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_SignUp_01()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="TC_SignUp_01" duration-ms="111111" started-at="2019-02-04T12:45:20Z" finished-at="2019-02-04T12:47:11Z">
+        <test-method status="PASS" signature="TC_SignUp_01()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="TC_SignUp_01" duration-ms="113796" started-at="2019-02-04T13:40:08Z" finished-at="2019-02-04T13:42:02Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
@@ -940,22 +940,22 @@
               <![CDATA[<br><strong>Step3: Enter the Details for the SignUp</strong></br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :===>QRTfd</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :===>NaAVl</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :===>kLCZj</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :===>XMNhn</br>]]>
             </line>
             <line>
               <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on the Sign Up for Newsletter check box</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :===>WaAb@mailinator.com</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :===>XXgh@mailinator.com</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :===>mckWR@1234</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :===>ZYFZF@1234</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :===>mckWR@1234</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :===>ZYFZF@1234</br>]]>
             </line>
             <line>
               <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Remember Me What's this? check box</br>]]>
@@ -985,7 +985,7 @@
               <![CDATA[<br><strong>===> Open Mailinator for Email Verification <===</strong></br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Enter Email Id :WaAb@mailinator.com ---</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Enter Email Id :XXgh@mailinator.com ---</br>]]>
             </line>
             <line>
               <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- First name and Last Name verified in Email. ---</br>]]>
@@ -1004,7 +1004,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_SignUp_01 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="tearDown" is-config="true" duration-ms="10987" started-at="2019-02-04T12:47:11Z" finished-at="2019-02-04T12:47:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="tearDown" is-config="true" duration-ms="10934" started-at="2019-02-04T13:42:02Z" finished-at="2019-02-04T13:42:13Z">
           <params>
             <param index="0">
               <value>
@@ -1017,20 +1017,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.index.PackageIndex -->
     </test> <!-- TC_SignUp_01: Verify User SignUp functionality -->
-    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="111850" started-at="2019-02-04T12:47:22Z" finished-at="2019-02-04T12:49:14Z">
+    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="110396" started-at="2019-02-04T13:42:13Z" finished-at="2019-02-04T13:44:03Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="fetchSuiteConfiguration" is-config="true" duration-ms="21" started-at="2019-02-04T12:47:22Z" finished-at="2019-02-04T12:47:22Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="fetchSuiteConfiguration" is-config="true" duration-ms="15" started-at="2019-02-04T13:42:13Z" finished-at="2019-02-04T13:42:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1d2d4d7a]]>
+                <![CDATA[org.testng.TestRunner@70ecf57b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="setUp" is-config="true" duration-ms="13051" started-at="2019-02-04T12:47:22Z" finished-at="2019-02-04T12:47:35Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="setUp" is-config="true" duration-ms="12032" started-at="2019-02-04T13:42:13Z" finished-at="2019-02-04T13:42:25Z">
           <params>
             <param index="0">
               <value>
@@ -1039,14 +1039,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1d2d4d7a]]>
+                <![CDATA[org.testng.TestRunner@70ecf57b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="TC_LogIn_02" duration-ms="87937" started-at="2019-02-04T12:47:35Z" finished-at="2019-02-04T12:49:03Z">
+        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="TC_LogIn_02" duration-ms="85666" started-at="2019-02-04T13:42:25Z" finished-at="2019-02-04T13:43:50Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
@@ -1070,10 +1070,10 @@
               <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : XXgh@mailinator.com <===</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : ZYFZF@1234 <===</br>]]>
             </line>
             <line>
               <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
@@ -1098,7 +1098,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_LogIn_02 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="tearDown" is-config="true" duration-ms="10838" started-at="2019-02-04T12:49:03Z" finished-at="2019-02-04T12:49:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="tearDown" is-config="true" duration-ms="12679" started-at="2019-02-04T13:43:50Z" finished-at="2019-02-04T13:44:03Z">
           <params>
             <param index="0">
               <value>
@@ -1111,20 +1111,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.index.PackageIndex -->
     </test> <!-- TC_LogIn_02: Verify User LogIn functionality -->
-    <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities" duration-ms="180350" started-at="2019-02-04T12:49:14Z" finished-at="2019-02-04T12:52:14Z">
+    <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities" duration-ms="175058" started-at="2019-02-04T13:44:03Z" finished-at="2019-02-04T13:46:58Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="fetchSuiteConfiguration" is-config="true" duration-ms="32" started-at="2019-02-04T12:49:14Z" finished-at="2019-02-04T12:49:14Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="fetchSuiteConfiguration" is-config="true" duration-ms="25" started-at="2019-02-04T13:44:03Z" finished-at="2019-02-04T13:44:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5e020dd1]]>
+                <![CDATA[org.testng.TestRunner@4e5364a3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="setUp" is-config="true" duration-ms="11714" started-at="2019-02-04T12:49:14Z" finished-at="2019-02-04T12:49:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="setUp" is-config="true" duration-ms="11148" started-at="2019-02-04T13:44:03Z" finished-at="2019-02-04T13:44:14Z">
           <params>
             <param index="0">
               <value>
@@ -1133,14 +1133,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5e020dd1]]>
+                <![CDATA[org.testng.TestRunner@4e5364a3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="TC_Menu_Page_03" duration-ms="155899" started-at="2019-02-04T12:49:25Z" finished-at="2019-02-04T12:52:01Z">
+        <test-method status="PASS" signature="TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="TC_Menu_Page_03" duration-ms="153049" started-at="2019-02-04T13:44:14Z" finished-at="2019-02-04T13:46:47Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
@@ -1780,7 +1780,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_Menu_Page_03 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="tearDown" is-config="true" duration-ms="12703" started-at="2019-02-04T12:52:01Z" finished-at="2019-02-04T12:52:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="tearDown" is-config="true" duration-ms="10834" started-at="2019-02-04T13:46:47Z" finished-at="2019-02-04T13:46:58Z">
           <params>
             <param index="0">
               <value>
@@ -1793,24 +1793,24 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.index.PackageIndex -->
     </test> <!-- TC_Menu_Page_03: Verify Any Menu page Functionalities -->
-    <test name="TC_Wish_Compare_04: Verify User is able to add the Products into Wish List and Compare List" duration-ms="279079" started-at="2019-02-04T12:52:14Z" finished-at="2019-02-04T12:56:53Z">
+    <test name="TC_Wish_Compare_04: Verify User is able to add the Products into Wish List and Compare List" duration-ms="278572" started-at="2019-02-04T13:46:58Z" finished-at="2019-02-04T13:51:37Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="sheetupdate" is-config="true" duration-ms="29380" started-at="2019-02-04T12:44:24Z" finished-at="2019-02-04T12:44:53Z">
+        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="sheetupdate" is-config="true" duration-ms="28497" started-at="2019-02-04T13:39:25Z" finished-at="2019-02-04T13:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sheetupdate -->
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="9" started-at="2019-02-04T12:52:14Z" finished-at="2019-02-04T12:52:14Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="8" started-at="2019-02-04T13:46:58Z" finished-at="2019-02-04T13:46:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bbc02ef]]>
+                <![CDATA[org.testng.TestRunner@1a336906]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="setUp" is-config="true" duration-ms="11045" started-at="2019-02-04T12:52:14Z" finished-at="2019-02-04T12:52:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="setUp" is-config="true" duration-ms="10877" started-at="2019-02-04T13:46:58Z" finished-at="2019-02-04T13:47:09Z">
           <params>
             <param index="0">
               <value>
@@ -1819,14 +1819,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@4bbc02ef]]>
+                <![CDATA[org.testng.TestRunner@1a336906]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_Wish_Compare_04()[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="TC_Wish_Compare_04" duration-ms="257130" started-at="2019-02-04T12:52:25Z" finished-at="2019-02-04T12:56:42Z">
+        <test-method status="PASS" signature="TC_Wish_Compare_04()[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="TC_Wish_Compare_04" duration-ms="256878" started-at="2019-02-04T13:47:09Z" finished-at="2019-02-04T13:51:26Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
@@ -1850,10 +1850,10 @@
               <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : XXgh@mailinator.com <===</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : ZYFZF@1234 <===</br>]]>
             </line>
             <line>
               <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
@@ -1944,7 +1944,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_Wish_Compare_04 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="tearDown" is-config="true" duration-ms="10892" started-at="2019-02-04T12:56:42Z" finished-at="2019-02-04T12:56:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="tearDown" is-config="true" duration-ms="10809" started-at="2019-02-04T13:51:26Z" finished-at="2019-02-04T13:51:37Z">
           <params>
             <param index="0">
               <value>
