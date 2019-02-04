@@ -1,6 +1,774 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify That user is able to SignUp with the valid details</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step2: Click on the SignUp menu</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step3: Enter the Details for the SignUp</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :===>QRTfd</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :===>kLCZj</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on the Sign Up for Newsletter check box</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :===>WaAb@mailinator.com</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :===>mckWR@1234</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :===>mckWR@1234</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Remember Me What's this? check box</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step4: Click on SignUp button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step5: User Sign Up verification.</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>===> Thank you for registering with 3D Broadcast Sales message is verified <===</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>===> Click on Account Inormation for Details Verification <===</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- First name is verified ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Last name is verified ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>===> Open Mailinator for Email Verification <===</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Enter Email Id :WaAb@mailinator.com ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- First name and Last Name verified in Email. ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Welcome Email, 3DbroadCastSale as a sender verified. ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Newsletter subscription, 3DbroadCastSale as a sender verified. ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify That user is able to Login with the valid details</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step2: Click on the Login menu</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step5: User Login verification.</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>===> Account Information Verification <===</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Click on Account Menu ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Verify Any Menu page with Below Functionality.</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> • Shopping options</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> • Sort By</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> • Show per page</h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step2: Mouse Hover on [Cameras] menu</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step3: Click on [Cinematic Cameras]sub menu</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Page Name has been Verified <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Shopping Options [Category] is Displayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Shopping Options [Manufaturer] is Displayed <--</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Name is :Canon C100 Mark II Digital Video Camera No Lens - 0202C007 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Name is Dispayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price[inc VAT] is :£3,129.30 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price[exc VAT] is :£2,607.75 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product price is Dispayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Add to Basket Button is Displayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product image is Displayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product WishList icon is Displayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Compare icon is Displayed <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of items :24 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of prices :48 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of add to basket button :24 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of images :24 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of wishlist icon :24 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of compare icon :24 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of Products||Prices||AddtoBasket Button, Verified<---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Images||WishList||Compare List, Verified <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> All Products has the above Details/Elements, Verified  <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step4: Click on any [Category]</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on :Blackmagic Cameras Category <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;String to match :Blackm</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Cinema Camera with MFT lens mount (Body only), SKU: BMD-CINECAMMICHDMFT</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Studio Camera 4K with MFT Lens Mount (Body Only), SKU: BMD-CINSTUDMFT/UHD/MR</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast 4K UHD Studio & OB ENG Camera - BMD-CINEURSAMC4K</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit - BMD-CINEURSAMC4K-KIT</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit with 20x Fujinon Lens</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG PRO Camera Kit with 20x Fujinon Lens w/ 2x Extender</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro 4.6K Camera (Body Only) - Receive a FREE URSA Viewfinder</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K EF (Body Only) - BMD-CINECAMURSAM40K/EF</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K PL Camera (Body Only), SKU: BMD-CINECAMURSAM40K/PL</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K EF Camera (Body Only), SKU: BMD-CINECAMURSAM46K/EF</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K PL Camera (Body Only), SKU: BMD-CINECAMURSAM46K/PL</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera, HD, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/HDNF</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera 4K, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/UHD/2</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with MFT Mount - BMD-BMCASS/LENSCAPMFT</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini SSD Recorder - BMD-CINEURSASHMSSD</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic URSA Mini Mic Mount - BMD-CINEURSASHSMC</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with EF Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro Shim Kit</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro B4 Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design URSA Mini Pro PL Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro EF Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :FieldCast FCT-ADSTUCAMHB Adapter Two Hybrid</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Power Supply URSA 12v 100w, SKU: BMD-PSUPPLY-XLR/12V100W</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='red'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkRed"> &#10008; <i> UNSUCCESSFUL </i></h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<br><Strong><font color=#FF0000>--Failed</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<a href='screenshots/MenuPage_Category_Failed.png' target='_new'>MenuPage_Category_Failed.png</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step5: Click on any [Manufacturer]</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on :BlackMagic Design Category <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;String to match :BlackMagic</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Cinema Camera with MFT lens mount (Body only), SKU: BMD-CINECAMMICHDMFT</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Studio Camera 4K with MFT Lens Mount (Body Only), SKU: BMD-CINSTUDMFT/UHD/MR</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast 4K UHD Studio & OB ENG Camera - BMD-CINEURSAMC4K</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit - BMD-CINEURSAMC4K-KIT</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit with 20x Fujinon Lens</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG PRO Camera Kit with 20x Fujinon Lens w/ 2x Extender</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro 4.6K Camera (Body Only) - Receive a FREE URSA Viewfinder</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K EF (Body Only) - BMD-CINECAMURSAM40K/EF</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K PL Camera (Body Only), SKU: BMD-CINECAMURSAM40K/PL</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K EF Camera (Body Only), SKU: BMD-CINECAMURSAM46K/EF</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K PL Camera (Body Only), SKU: BMD-CINECAMURSAM46K/PL</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera, HD, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/HDNF</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera 4K, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/UHD/2</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with MFT Mount - BMD-BMCASS/LENSCAPMFT</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini SSD Recorder - BMD-CINEURSASHMSSD</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic URSA Mini Mic Mount - BMD-CINEURSASHSMC</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with EF Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro Shim Kit</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro B4 Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design URSA Mini Pro PL Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro EF Mount</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Power Supply URSA 12v 100w, SKU: BMD-PSUPPLY-XLR/12V100W</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Power Supply - Pocket Cinema Camera, SKU: BMD-PS-12V10W</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step6: Click on Sort By option : Price : Ascending</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Direction :asc</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 24</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£20.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :20 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£20.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :20 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£975.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :975 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£45.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :45 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£49.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :49 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£69.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :69 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£75.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :75 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£85.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :85 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£100.28 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :100 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£103.77 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :103 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£126.44 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :126 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£143.88 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :143 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£178.76 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :178 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£274.68 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :274 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£300.84 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :300 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£701.96 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :701 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£919.96 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :919 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,050.76 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1050 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,173.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1173 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,202.49 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1202 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,105.88 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2105 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,402.36 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 2</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='red'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkRed"> &#10008; <i> UNSUCCESSFUL </i></h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<br><Strong><font color=#FF0000>--Failed</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<a href='screenshots/MenuPage_sortby_ascending_Failed.png' target='_new'>MenuPage_sortby_ascending_Failed.png</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step7: Click on Sort By option : Price : Descending </strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Direction :desc</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 24</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£7,329.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :7329 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£6,350.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :6350 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£4,225.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :4225 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£4,059.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :4059 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£3,774.89 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :3774 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£3,509.80 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :3509 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,463.40 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2463 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,402.36 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2402 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,105.88 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2105 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,202.49 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1202 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,173.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1173 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,050.76 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1050 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£919.96 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :919 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£701.96 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :701 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£300.84 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :300 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£274.68 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :274 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£178.76 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :178 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£143.88 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :143 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£126.44 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :126 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£103.77 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :103 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£100.28 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :100 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£85.00 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 1</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong>Step8: Click on Show per Page</strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :12</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :12</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :24</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :24</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :31</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :31</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :31</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :31</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
     <line>
       <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
     </line>
@@ -23,10 +791,10 @@
       <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : ojrC@mailinator.com <===</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : TXjDl@1234 <===</br>]]>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
     </line>
     <line>
       <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
@@ -104,18 +872,6 @@
       <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Price :£2,607.75 <---</br>]]>
     </line>
     <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Item :Canon C100 Mark II Digital Video Camera No Lens - 0202C007 <---</br>]]>
-    </line>
-    <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Price :£2,607.75 <---</br>]]>
-    </line>
-    <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Item :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K <---</br>]]>
-    </line>
-    <line>
-      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Price :£975.00 <---</br>]]>
-    </line>
-    <line>
       <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Item :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K <---</br>]]>
     </line>
     <line>
@@ -128,27 +884,933 @@
       <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
     </line>
   </reporter-output>
-  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="250981" started-at="2019-02-04T12:20:13Z" finished-at="2019-02-04T12:24:24Z">
+  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="719870" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:56:53Z">
     <groups>
     </groups>
-    <test name="TC_Wish_Compare_04: Verify User is able to add the Products into Wish List and Compare List" duration-ms="250981" started-at="2019-02-04T12:20:13Z" finished-at="2019-02-04T12:24:24Z">
+    <test name="TC_SignUp_01: Verify User SignUp functionality" duration-ms="148489" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:47:22Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="sheetupdate" is-config="true" duration-ms="26186" started-at="2019-02-04T12:19:47Z" finished-at="2019-02-04T12:20:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sheetupdate -->
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="fetchSuiteConfiguration" is-config="true" duration-ms="25" started-at="2019-02-04T12:20:13Z" finished-at="2019-02-04T12:20:13Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="fetchSuiteConfiguration" is-config="true" duration-ms="30" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:44:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d74507c]]>
+                <![CDATA[org.testng.TestRunner@24dc150c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="setUp" is-config="true" duration-ms="12059" started-at="2019-02-04T12:20:13Z" finished-at="2019-02-04T12:20:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="setUp" is-config="true" duration-ms="26324" started-at="2019-02-04T12:44:53Z" finished-at="2019-02-04T12:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.index.PackageIndex.TC_SignUp_01()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@24dc150c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_SignUp_01()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="TC_SignUp_01" duration-ms="111111" started-at="2019-02-04T12:45:20Z" finished-at="2019-02-04T12:47:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify That user is able to SignUp with the valid details</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step2: Click on the SignUp menu</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step3: Enter the Details for the SignUp</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :===>QRTfd</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :===>kLCZj</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on the Sign Up for Newsletter check box</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :===>WaAb@mailinator.com</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :===>mckWR@1234</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :===>mckWR@1234</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on Remember Me What's this? check box</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step4: Click on SignUp button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step5: User Sign Up verification.</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>===> Thank you for registering with 3D Broadcast Sales message is verified <===</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>===> Click on Account Inormation for Details Verification <===</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- First name is verified ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Last name is verified ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>===> Open Mailinator for Email Verification <===</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Enter Email Id :WaAb@mailinator.com ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- First name and Last Name verified in Email. ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Welcome Email, 3DbroadCastSale as a sender verified. ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Newsletter subscription, 3DbroadCastSale as a sender verified. ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SignUp_01 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="tearDown" is-config="true" duration-ms="10987" started-at="2019-02-04T12:47:11Z" finished-at="2019-02-04T12:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_SignUp_01 status=SUCCESS method=PackageIndex.TC_SignUp_01()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.index.PackageIndex -->
+    </test> <!-- TC_SignUp_01: Verify User SignUp functionality -->
+    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="111850" started-at="2019-02-04T12:47:22Z" finished-at="2019-02-04T12:49:14Z">
+      <class name="com.automation.index.PackageIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="fetchSuiteConfiguration" is-config="true" duration-ms="21" started-at="2019-02-04T12:47:22Z" finished-at="2019-02-04T12:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d2d4d7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="setUp" is-config="true" duration-ms="13051" started-at="2019-02-04T12:47:22Z" finished-at="2019-02-04T12:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.index.PackageIndex.TC_LogIn_02()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d2d4d7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="TC_LogIn_02" duration-ms="87937" started-at="2019-02-04T12:47:35Z" finished-at="2019-02-04T12:49:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> To verify That user is able to Login with the valid details</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step2: Click on the Login menu</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step5: User Login verification.</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>===> Account Information Verification <===</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Click on Account Menu ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;--- Email Address is verified ---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LogIn_02 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4f970963]" name="tearDown" is-config="true" duration-ms="10838" started-at="2019-02-04T12:49:03Z" finished-at="2019-02-04T12:49:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_LogIn_02 status=SUCCESS method=PackageIndex.TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@4f970963] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.index.PackageIndex -->
+    </test> <!-- TC_LogIn_02: Verify User LogIn functionality -->
+    <test name="TC_Menu_Page_03: Verify Any Menu page Functionalities" duration-ms="180350" started-at="2019-02-04T12:49:14Z" finished-at="2019-02-04T12:52:14Z">
+      <class name="com.automation.index.PackageIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="fetchSuiteConfiguration" is-config="true" duration-ms="32" started-at="2019-02-04T12:49:14Z" finished-at="2019-02-04T12:49:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e020dd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="setUp" is-config="true" duration-ms="11714" started-at="2019-02-04T12:49:14Z" finished-at="2019-02-04T12:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.index.PackageIndex.TC_Menu_Page_03()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e020dd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="TC_Menu_Page_03" duration-ms="155899" started-at="2019-02-04T12:49:25Z" finished-at="2019-02-04T12:52:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Verify Any Menu page with Below Functionality.</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> • Shopping options</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> • Sort By</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> • Show per page</h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step1: Open the Url--> https://staging.3dbroadcastsales.com/</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;=====> 3dbroadcastsales home page open <=====</br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step2: Mouse Hover on [Cameras] menu</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step3: Click on [Cinematic Cameras]sub menu</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Page Name has been Verified <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Shopping Options [Category] is Displayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Shopping Options [Manufaturer] is Displayed <--</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Name is :Canon C100 Mark II Digital Video Camera No Lens - 0202C007 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Name is Dispayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price[inc VAT] is :£3,129.30 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price[exc VAT] is :£2,607.75 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product price is Dispayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Add to Basket Button is Displayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product image is Displayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product WishList icon is Displayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Compare icon is Displayed <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of items :24 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of prices :48 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of add to basket button :24 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of images :24 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of wishlist icon :24 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of compare icon :24 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Number of Products||Prices||AddtoBasket Button, Verified<---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Images||WishList||Compare List, Verified <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> All Products has the above Details/Elements, Verified  <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step4: Click on any [Category]</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on :Blackmagic Cameras Category <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;String to match :Blackm</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Cinema Camera with MFT lens mount (Body only), SKU: BMD-CINECAMMICHDMFT</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Studio Camera 4K with MFT Lens Mount (Body Only), SKU: BMD-CINSTUDMFT/UHD/MR</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast 4K UHD Studio & OB ENG Camera - BMD-CINEURSAMC4K</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit - BMD-CINEURSAMC4K-KIT</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit with 20x Fujinon Lens</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG PRO Camera Kit with 20x Fujinon Lens w/ 2x Extender</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro 4.6K Camera (Body Only) - Receive a FREE URSA Viewfinder</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K EF (Body Only) - BMD-CINECAMURSAM40K/EF</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K PL Camera (Body Only), SKU: BMD-CINECAMURSAM40K/PL</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K EF Camera (Body Only), SKU: BMD-CINECAMURSAM46K/EF</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K PL Camera (Body Only), SKU: BMD-CINECAMURSAM46K/PL</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera, HD, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/HDNF</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera 4K, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/UHD/2</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with MFT Mount - BMD-BMCASS/LENSCAPMFT</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini SSD Recorder - BMD-CINEURSASHMSSD</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic URSA Mini Mic Mount - BMD-CINEURSASHSMC</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with EF Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro Shim Kit</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro B4 Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design URSA Mini Pro PL Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro EF Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :FieldCast FCT-ADSTUCAMHB Adapter Two Hybrid</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Power Supply URSA 12v 100w, SKU: BMD-PSUPPLY-XLR/12V100W</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='red'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkRed"> &#10008; <i> UNSUCCESSFUL </i></h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<br><Strong><font color=#FF0000>--Failed</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<a href='screenshots/MenuPage_Category_Failed.png' target='_new'>MenuPage_Category_Failed.png</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step5: Click on any [Manufacturer]</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on :BlackMagic Design Category <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;String to match :BlackMagic</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Cinema Camera with MFT lens mount (Body only), SKU: BMD-CINECAMMICHDMFT</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Micro Studio Camera 4K with MFT Lens Mount (Body Only), SKU: BMD-CINSTUDMFT/UHD/MR</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast 4K UHD Studio & OB ENG Camera - BMD-CINEURSAMC4K</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit - BMD-CINEURSAMC4K-KIT</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG Camera Kit with 20x Fujinon Lens</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Broadcast ENG PRO Camera Kit with 20x Fujinon Lens w/ 2x Extender</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro 4.6K Camera (Body Only) - Receive a FREE URSA Viewfinder</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K EF (Body Only) - BMD-CINECAMURSAM40K/EF</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4K PL Camera (Body Only), SKU: BMD-CINECAMURSAM40K/PL</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K EF Camera (Body Only), SKU: BMD-CINECAMURSAM46K/EF</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini 4.6K PL Camera (Body Only), SKU: BMD-CINECAMURSAM46K/PL</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera, HD, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/HDNF</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Studio Camera 4K, (Without Fibre SFP Module) SKU: BMD-CINSTUDMFT/UHD/2</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with MFT Mount - BMD-BMCASS/LENSCAPMFT</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini SSD Recorder - BMD-CINEURSASHMSSD</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic URSA Mini Mic Mount - BMD-CINEURSASHSMC</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Replacement Body Cap for Select Cameras with EF Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro Shim Kit</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro B4 Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :BlackMagic Design URSA Mini Pro PL Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design URSA Mini Pro EF Mount</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Power Supply URSA 12v 100w, SKU: BMD-PSUPPLY-XLR/12V100W</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Product Name :Blackmagic Design Power Supply - Pocket Cinema Camera, SKU: BMD-PS-12V10W</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step6: Click on Sort By option : Price : Ascending</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Direction :asc</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 24</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£20.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :20 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£20.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :20 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£975.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :975 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£45.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :45 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£49.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :49 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£69.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :69 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£75.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :75 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£85.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :85 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£100.28 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :100 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£103.77 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :103 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£126.44 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :126 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£143.88 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :143 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£178.76 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :178 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£274.68 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :274 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£300.84 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :300 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£701.96 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :701 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£919.96 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :919 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,050.76 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1050 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,173.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1173 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,202.49 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1202 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,105.88 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2105 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,402.36 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 2</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='red'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkRed"> &#10008; <i> UNSUCCESSFUL </i></h3> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<br><Strong><font color=#FF0000>--Failed</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<a href='screenshots/MenuPage_sortby_ascending_Failed.png' target='_new'>MenuPage_sortby_ascending_Failed.png</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step7: Click on Sort By option : Price : Descending </strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Direction :desc</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 24</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£7,329.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :7329 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£6,350.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :6350 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£4,225.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :4225 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£4,059.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :4059 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£3,774.89 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :3774 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£3,509.80 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :3509 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,463.40 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2463 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,402.36 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2402 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£2,105.88 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :2105 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,202.49 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1202 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,173.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1173 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£1,050.76 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :1050 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£919.96 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :919 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£701.96 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :701 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£300.84 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :300 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£286.89 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :286 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£274.68 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :274 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£178.76 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :178 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£143.88 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :143 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£126.44 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :126 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£103.77 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :103 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£100.28 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Value1 :100 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Product Price :£85.00 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Flag = 1</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong>Step8: Click on Show per Page</strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :12</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :12</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :24</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :24</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :31</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :31</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page :31</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;Items Per Page in variable :31</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Menu_Page_03 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@6e0e048a]" name="tearDown" is-config="true" duration-ms="12703" started-at="2019-02-04T12:52:01Z" finished-at="2019-02-04T12:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Menu_Page_03 status=SUCCESS method=PackageIndex.TC_Menu_Page_03()[pri:0, instance:com.automation.index.PackageIndex@6e0e048a] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.index.PackageIndex -->
+    </test> <!-- TC_Menu_Page_03: Verify Any Menu page Functionalities -->
+    <test name="TC_Wish_Compare_04: Verify User is able to add the Products into Wish List and Compare List" duration-ms="279079" started-at="2019-02-04T12:52:14Z" finished-at="2019-02-04T12:56:53Z">
+      <class name="com.automation.index.PackageIndex">
+        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="sheetupdate" is-config="true" duration-ms="29380" started-at="2019-02-04T12:44:24Z" finished-at="2019-02-04T12:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sheetupdate -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="fetchSuiteConfiguration" is-config="true" duration-ms="9" started-at="2019-02-04T12:52:14Z" finished-at="2019-02-04T12:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4bbc02ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="setUp" is-config="true" duration-ms="11045" started-at="2019-02-04T12:52:14Z" finished-at="2019-02-04T12:52:25Z">
           <params>
             <param index="0">
               <value>
@@ -157,14 +1819,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@5d74507c]]>
+                <![CDATA[org.testng.TestRunner@4bbc02ef]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_Wish_Compare_04()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="TC_Wish_Compare_04" duration-ms="228047" started-at="2019-02-04T12:20:25Z" finished-at="2019-02-04T12:24:13Z">
+        <test-method status="PASS" signature="TC_Wish_Compare_04()[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="TC_Wish_Compare_04" duration-ms="257130" started-at="2019-02-04T12:52:25Z" finished-at="2019-02-04T12:56:42Z">
           <reporter-output>
             <line>
               <![CDATA[<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]>
@@ -188,10 +1850,10 @@
               <![CDATA[<br><strong>Step3: Enter the Details for Login</strong></br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : ojrC@mailinator.com <===</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Email Addess : WaAb@mailinator.com <===</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : TXjDl@1234 <===</br>]]>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;===> Password : mckWR@1234 <===</br>]]>
             </line>
             <line>
               <![CDATA[<br><strong>Step4: Click on Login button</strong></br>]]>
@@ -269,18 +1931,6 @@
               <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Price :£2,607.75 <---</br>]]>
             </line>
             <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Item :Canon C100 Mark II Digital Video Camera No Lens - 0202C007 <---</br>]]>
-            </line>
-            <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Price :£2,607.75 <---</br>]]>
-            </line>
-            <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Item :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K <---</br>]]>
-            </line>
-            <line>
-              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Price :£975.00 <---</br>]]>
-            </line>
-            <line>
               <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Item :BlackMagic Design Pocket Cinema Camera 4K - BMD-CINECAMPOCHDMFT4K <---</br>]]>
             </line>
             <line>
@@ -294,11 +1944,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_Wish_Compare_04 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@4e9ba398]" name="tearDown" is-config="true" duration-ms="10827" started-at="2019-02-04T12:24:13Z" finished-at="2019-02-04T12:24:24Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@610694f1]" name="tearDown" is-config="true" duration-ms="10892" started-at="2019-02-04T12:56:42Z" finished-at="2019-02-04T12:56:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_Wish_Compare_04 status=SUCCESS method=PackageIndex.TC_Wish_Compare_04()[pri:0, instance:com.automation.index.PackageIndex@4e9ba398] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
+                <![CDATA[[TestResult name=TC_Wish_Compare_04 status=SUCCESS method=PackageIndex.TC_Wish_Compare_04()[pri:0, instance:com.automation.index.PackageIndex@610694f1] output=<strong> <h3 style="color:DarkViolet">  </h3> </strong>]]]>
               </value>
             </param>
           </params>

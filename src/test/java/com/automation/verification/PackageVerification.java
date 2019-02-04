@@ -549,8 +549,8 @@ public class PackageVerification extends AbstractPage {
 			name = items_list.get(i).getText();
 			price = items_prices.get(j).getText();
 			j=j+2;
-			Common.log("---> Item :"+ name +" <---");
-			Common.log("---> Price :"+ price+" <---" );
+			/*Common.log("---> Item :"+ name +" <---");
+			Common.log("---> Price :"+ price+" <---" );*/
 			
 			if(name.equalsIgnoreCase(PackageIndexpage.name_glob[i]) && price.equalsIgnoreCase(PackageIndexpage.price_glob[i])) {
 				Common.log("---> Item :"+ name +" <---");

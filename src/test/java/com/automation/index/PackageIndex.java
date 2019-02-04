@@ -32,7 +32,7 @@ public class PackageIndex extends SeleniumInit {
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.log("=====> 3dbroadcastsales home page not open <=====");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "SignUpFailed");
 		}
@@ -80,7 +80,7 @@ public class PackageIndex extends SeleniumInit {
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.log("=====> 3dbroadcastsales home page  not open <=====");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "LoginFailed");
 		}
@@ -132,7 +132,7 @@ public class PackageIndex extends SeleniumInit {
 			Assert.assertTrue(true);
 		} else {
 			flag++;
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.log("=====> 3dbroadcastsales home page not open <=====");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_HomePage_open_Failed");
 		}
@@ -255,6 +255,8 @@ public class PackageIndex extends SeleniumInit {
 		if (flag > 0) {
 			TestData.SheetResultcellupdate(3, 3, "Failed");
 		}
+		else
+			TestData.SheetResultcellupdate(3, 3, "Pass");
 		// softassertion.assertAll();
 	}// End of TC_Menu_Page_03 function
 
@@ -275,7 +277,7 @@ public class PackageIndex extends SeleniumInit {
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.log("=====> 3dbroadcastsales home page not open <=====");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "LoginFailed");
 		}
@@ -337,7 +339,11 @@ public class PackageIndex extends SeleniumInit {
 			softassertion.assertTrue(false);
 		}
 
-		
+		if (flag > 0) {
+			TestData.SheetResultcellupdate(4, 3, "Failed");
+		}
+		else
+			TestData.SheetResultcellupdate(4, 3, "Pass");
 	}//End of TC_Wish_Compare_04 function
 	
 	
