@@ -68,12 +68,12 @@ public class PackageIndexpage extends AbstractPage {
 		String firstname = Common.generateRandomChars(5);
 		firstname_ele.clear();
 		firstname_ele.sendKeys(firstname, Keys.ENTER);
-		Common.log("Enter First Name :===>" + firstname);
+		Common.log("Enter First Name :--->" + firstname+" <---");
 
 		String lastname = Common.generateRandomChars(5);
 		lastname_ele.clear();
 		lastname_ele.sendKeys(lastname, Keys.ENTER);
-		Common.log("Enter Last Name :===>" + lastname + "");
+		Common.log("Enter Last Name :--->" + lastname + " <---");
 
 		Common.log("Click on the Sign Up for Newsletter check box");
 		newslettercheckbox_ele.click();
@@ -81,18 +81,18 @@ public class PackageIndexpage extends AbstractPage {
 		String emailaddress = Common.generateRandomChars(4) + "@mailinator.com";
 		emailaddress_ele.clear();
 		emailaddress_ele.sendKeys(emailaddress, Keys.ENTER);
-		Common.log("Enter Email Address :===>" + emailaddress);
+		Common.log("Enter Email Address :--->" + emailaddress+" <---");
 
 		String password = Common.generateRandomChars(5) + "@1234";
 		password_ele.clear();
 		password_ele.sendKeys(password, Keys.ENTER);
-		Common.log("Enter Password :===>" + password);
+		Common.log("Enter Password :--->" + password+" <---");
 
 		confirmpassword_ele.clear();
 		confirmpassword_ele.sendKeys(password);
-		Common.log("Enter Confirm Password :===>" + password);
+		Common.log("Enter Confirm Password :--->" + password+" <---");
 
-		Common.log("Click on Remember Me What's this? check box");
+		Common.log("---> Click on Remember Me What's this? check box <---");
 		rememberme_ele.click();
 
 		// Write data into the AccountInfo text file Start
@@ -177,12 +177,12 @@ public class PackageIndexpage extends AbstractPage {
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(email_login));
 		email_login.clear();
 		email_login.sendKeys(email_address, Keys.ENTER);
-		Common.log("===> Email Addess : " + email_address + " <===");
+		Common.log("---> Email Addess : " + email_address + " <---");
 
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(password_login));
 		password_login.clear();
 		password_login.sendKeys(password);
-		Common.log("===> Password : " + password + " <===");
+		Common.log("---> Password : " + password + " <---");
 		return new PackageVerification(driver);
 	}
 
@@ -339,6 +339,7 @@ public class PackageIndexpage extends AbstractPage {
 		Common.pause(5);
 		items = items_per_page1.size();
 		packageVerification.itemsperpage(items);
+		
 		
 		List<WebElement> show_per_page2 = driver.findElements(By.xpath("//select[@id='limiter']"));
 		Select show2 = new Select(show_per_page2.get(1));

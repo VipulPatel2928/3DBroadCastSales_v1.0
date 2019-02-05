@@ -318,18 +318,32 @@ public class Common {
 		Reporter.log("</br>&nbsp;&nbsp;&nbsp;&nbsp;"+msg+"</br>");
 	}
 	
-	public static void logcase(String msg) {
+	public static void logveri(String msg) {
+		System.out.println(msg);
+		 Reporter.log("<strong><h1 style=\"color:saddlebrown;font-size:11px;\"> " + msg
+				    + "</h1> </strong>");
+	}
+	
+	/*public static void logcase(String msg) {
 				  System.out.println(msg);
-			  Reporter.log("<strong> <h3 style=\"color:DarkViolet\"> " + msg
+			  Reporter.log("<strong><h3 style=\"color:DarkViolet\"> " + msg
 			    + "</h3> </strong>");
-			 	}
+			 	}*/
 	
-		
+	public static void logcase(String msg) {
+		  System.out.println(msg);
+	  Reporter.log("<strong><h1 style=\"color:DarkViolet;font-size:13px;\"> " + msg
+	    + "</h1> </strong>");
+	 	}	
 	
-
+	
+	
+	//<font size="3" color="DarkViolet" font-size:40px>
+	
+	//
 	public static void logstep(String msg) {
 		System.out.println(msg);
-		Reporter.log("<br><strong>" + msg + "</strong></br>");
+		Reporter.log("<br><strong><font color=\"blue\">" + msg + "</font></strong></br>");
 	}
 	
 	public static void AssertPassed() {

@@ -23,16 +23,16 @@ public class PackageIndex extends SeleniumInit {
 
 		Common.logcase(" ");
 
-		Common.logcase("To verify That user is able to SignUp with the valid details");
+		Common.logcase("TEST CASE:TC_SignUp_01:: To verify That user is able to SignUp with the valid details");
 
-		Common.logstep("Step" + (step++) + ": Open the Url--> https://staging.3dbroadcastsales.com/");
+		Common.logstep("Step" + (step++) + ": Open the Url---> https://staging.3dbroadcastsales.com/");
 
 		if (packageVerification.homepageverify()) {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page open <-----");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
-			Common.log("=====> 3dbroadcastsales home page not open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page not open <-----");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "SignUpFailed");
 		}
@@ -71,16 +71,16 @@ public class PackageIndex extends SeleniumInit {
 
 		Common.logcase(" ");
 
-		Common.logcase("To verify That user is able to Login with the valid details");
+		Common.logcase("TEST CASE:TC_LogIn_02::To verify That user is able to Login with the valid details");
 
-		Common.logstep("Step" + (step++) + ": Open the Url--> https://staging.3dbroadcastsales.com/");
+		Common.logstep("Step" + (step++) + ": Open the Url---> https://staging.3dbroadcastsales.com/");
 
 		if (packageVerification.homepageverify()) {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page open <-----");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
-			Common.log("=====> 3dbroadcastsales home page  not open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page  not open <-----");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "LoginFailed");
 		}
@@ -102,7 +102,8 @@ public class PackageIndex extends SeleniumInit {
 			Common.logStatus("Pass");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
-		} else {
+		} else 
+		{
 			System.out.println("Test Failed.......");
 			TestData.SheetResultcellupdate(2, 3, "Failed");
 			Common.logStatus("Fail");
@@ -119,20 +120,20 @@ public class PackageIndex extends SeleniumInit {
 		int flag = 0;
 		Common.logcase(" ");
 
-		Common.logcase("Verify Any Menu page with Below Functionality.");
+		Common.logcase("TEST CASE:TC_Menu_Page_03::Verify Any Menu page with Below Functionality.");
 		Common.logcase("• Shopping options");
 		Common.logcase("• Sort By");
 		Common.logcase("• Show per page");
 
-		Common.logstep("Step" + (step++) + ": Open the Url--> https://staging.3dbroadcastsales.com/");
+		Common.logstep("Step" + (step++) + ": Open the Url---> https://staging.3dbroadcastsales.com/");
 
 		if (packageVerification.homepageverify()) {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page open <-----");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
 			flag++;
-			Common.log("=====> 3dbroadcastsales home page not open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page not open <-----");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "MenuPage_HomePage_open_Failed");
 		}
@@ -268,16 +269,16 @@ public class PackageIndex extends SeleniumInit {
 		int flag = 0;
 		Common.logcase(" ");
 
-		Common.logcase("Verify User is able to add/remove the Products into Wish List and Compare List");
+		Common.logcase("TEST CASE:TC_Wish_Compare_04::Verify User is able to add/remove the Products into Wish List and Compare List");
 
-		Common.logstep("Step" + (step++) + ": Open the Url--> https://staging.3dbroadcastsales.com/");
+		Common.logstep("Step" + (step++) + ": Open the Url---> https://staging.3dbroadcastsales.com/");
 
 		if (packageVerification.homepageverify()) {
-			Common.log("=====> 3dbroadcastsales home page open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page open <-----");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
-			Common.log("=====> 3dbroadcastsales home page not open <=====");
+			Common.logveri("-----> 3dbroadcastsales home page not open <-----");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "LoginFailed");
 		}

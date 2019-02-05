@@ -46,6 +46,8 @@ public class PackageVerification extends AbstractPage {
 
 	public boolean accountverification() {
 		// TODO Auto-generated method stub
+		
+		Common.logveri("---> Verifycation Start <---");
 		Common.pause(5);
 		String fileName = "lib/AccountInfo.txt";
 
@@ -100,11 +102,11 @@ public class PackageVerification extends AbstractPage {
 		WebElement thank_you_msg = driver
 				.findElement(By.xpath("//div[contains(text(),'Thank you for registering with 3D Broadcast Sales.')]"));
 		if (thank_you_msg.isDisplayed()) {
-			Common.logstep("===> Thank you for registering with 3D Broadcast Sales message is verified <===");
+			Common.log("---> Thank you for registering with 3D Broadcast Sales message is verified <---");
 			check++;
 		}
 
-		Common.logstep("===> Click on Account Inormation for Details Verification <===");
+		Common.logveri("---> Click on Account Inormation for Details Verification <---");
 		WebElement acc_info = driver.findElement(By.xpath("//a[contains(text(),'Account Information')]"));
 		// new
 		// WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(acc_info));
@@ -120,9 +122,9 @@ public class PackageVerification extends AbstractPage {
 
 		if (firstname.equals(first_acc.getAttribute("value")) && lastname.equals(last_acc.getAttribute("value"))
 				&& emailaddress.equals(email_acc.getAttribute("value"))) {
-			Common.log("--- First name is verified ---");
-			Common.log("--- Last name is verified ---");
-			Common.log("--- Email Address is verified ---");
+			Common.log("---> First name is verified <---");
+			Common.log("---> Last name is verified <---");
+			Common.log("---> Email Address is verified <---");
 			check++;
 		}
 
@@ -132,14 +134,14 @@ public class PackageVerification extends AbstractPage {
 		System.out.println("Email Address :" + email_acc.getAttribute("value"));
 
 		Common.switchToNewtabWithUrl(driver, "https://www.mailinator.com/", 1);
-		Common.logstep("===> Open Mailinator for Email Verification <===");
+		Common.logveri("---> Open Mailinator for Email Verification <---");
 
 		Common.pause(2);
 		WebElement email_txtfield = driver.findElement(By.xpath("//input[@id='inboxfield']"));
 		new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(email_txtfield));
 		email_txtfield.clear();
 		email_txtfield.sendKeys(emailaddress, Keys.ENTER);
-		Common.log("--- Enter Email Id :" + emailaddress + " ---");
+		Common.log("---> Enter Email Id :" + emailaddress + " <---");
 
 		List<WebElement> subjects = driver.findElements(By.xpath("//tr//td[4]"));
 
@@ -156,8 +158,8 @@ public class PackageVerification extends AbstractPage {
 				new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(msg_verify));
 				if (msg_verify.isDisplayed() && first_last_name.isDisplayed()) {
 
-					Common.log("--- First name and Last Name verified in Email. ---");
-					Common.log("--- Welcome Email, 3DbroadCastSale as a sender verified. ---");
+					Common.log("---> First name and Last Name verified in Email. <---");
+					Common.log("---> Welcome Email, 3DbroadCastSale as a sender verified. <---");
 					check++;
 					// Common.log(Integer.toString(check));
 				}
@@ -182,7 +184,7 @@ public class PackageVerification extends AbstractPage {
 						.findElement(By.xpath("//p[contains(text(),'Thank you, 3D Broadcast Sales!')]"));
 				new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(msg_verify));
 				if (msg_verify.isDisplayed()) {
-					Common.log("--- Newsletter subscription, 3DbroadCastSale as a sender verified. ---");
+					Common.log("---> Newsletter subscription, 3DbroadCastSale as a sender verified. <---");
 					check++;
 					// Common.log(Integer.toString(check));
 				}
@@ -193,6 +195,7 @@ public class PackageVerification extends AbstractPage {
 
 		}
 
+		Common.logveri("---> Verifycation End <---");
 		if (check == 4)
 			return true;
 		else
@@ -204,12 +207,12 @@ public class PackageVerification extends AbstractPage {
 
 	public boolean logindetailsverification() {
 		// TODO Auto-generated method stub
-
-		Common.logstep("===> Account Information Verification <===");
+        Common.logveri("---> Verification Start <---");
+		Common.logveri("---> Account Information Verification <---");
 		Common.pause(8);
 		new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(account_menu));
 		account_menu.click();
-		Common.log("--- Click on Account Menu ---");
+		Common.log("---> Click on Account Menu <---");
 
 		WebElement acc_info = driver.findElement(By.xpath("//a[contains(text(),'Account Information')]"));
 		// new
@@ -223,10 +226,13 @@ public class PackageVerification extends AbstractPage {
 		WebElement email_acc = driver.findElement(By.xpath("//input[@id='email']"));
 
 		if (PackageIndexpage.email_address.equals(email_acc.getAttribute("value"))) {
-			Common.log("--- Email Address is verified ---");
+			Common.log("---> Email Address is verified <---");
+			Common.logveri("---> Verification End <---");
 			return true;
-		} else
+		} else {
+			Common.logveri("---> Verification End <---");
 			return false;
+		}
 
 	}
 
@@ -251,7 +257,7 @@ public class PackageVerification extends AbstractPage {
 
 	public boolean pageandproductdetailsverification() {
 		// TODO Auto-generated method stub
-
+		Common.logveri("---> Verification Start <---");
 		int flag = 0;
 
 		// flag=1
@@ -351,7 +357,7 @@ public class PackageVerification extends AbstractPage {
 		Actions image_hover = new Actions(driver);
 		image_hover.moveToElement(products_images.get(0)).build().perform();
 		Common.pause(5);
-
+		Common.logveri("---> Verification End <---");
 		if (flag == 9)
 			return true;
 		else
@@ -362,6 +368,7 @@ public class PackageVerification extends AbstractPage {
 
 	public boolean category_shoping_option() {
 		// TODO Auto-generated method stub
+		Common.logveri("---> Verification Start <---");
 		int flag = product_list.size();
 		System.out.println("Flag =" + flag);
 
@@ -369,7 +376,7 @@ public class PackageVerification extends AbstractPage {
 
 		for (WebElement element : product_list) {
 
-			Common.log("Product Name :" + element.getText());
+			Common.log("---> Product Name :" + element.getText()+" <---");
 
 			if (StringUtils.containsIgnoreCase(element.getText(),
 					PackageIndexpage.category_label_str.substring(0, 6))) {
@@ -378,7 +385,8 @@ public class PackageVerification extends AbstractPage {
 		}
 
 		System.out.println("Flag =" + flag);
-
+        
+		Common.logveri("---> Verification End <---");
 		if (flag == 0)
 			return true;
 		else
@@ -387,7 +395,7 @@ public class PackageVerification extends AbstractPage {
 
 	public boolean Manufacturer_shoping_option() {
 		// TODO Auto-generated method stub
-
+		Common.logveri("---> Verification Start <---");
 		int flag = product_list.size();
 		System.out.println("Flag =" + flag);
 
@@ -395,7 +403,7 @@ public class PackageVerification extends AbstractPage {
 
 		for (WebElement element : product_list) {
 
-			Common.log("Product Name :" + element.getText());
+			Common.log("---> Product Name :" + element.getText()+" <---");
 
 			if (StringUtils.containsIgnoreCase(element.getText(),
 					PackageIndexpage.manufacturer_label_str.substring(0, 6))) {
@@ -404,7 +412,7 @@ public class PackageVerification extends AbstractPage {
 		}
 
 		System.out.println("Flag =" + flag);
-
+		Common.logveri("---> Verification End <---");  
 		if (flag == 0)
 			return true;
 		else
@@ -416,6 +424,7 @@ public class PackageVerification extends AbstractPage {
 
 	public boolean sortby_ascending() {
 		// TODO Auto-generated method stub
+		Common.logveri("---> Verification Start <---");
 		int flag = prices_sortby.size()/2;
 		Common.log("Flag = " + flag);
 		for (int i = 1; i < prices_sortby.size(); i = i + 2) {
@@ -450,7 +459,7 @@ public class PackageVerification extends AbstractPage {
 
 		Common.log("Flag = " + flag);
 		System.out.println(prices_sortby.size() % 2);
-
+		Common.logveri("---> Verification End <---");
 		if (flag <= 1)
 			return true;
 		else
@@ -461,6 +470,7 @@ public class PackageVerification extends AbstractPage {
 	
 	public boolean sortby_descending() {
 		// TODO Auto-generated method stub
+		Common.logveri("---> Verification Start <---");
 		int flag = prices_sortby.size()/2;
 		Common.log("Flag = " + flag);
 		for (int i = 1; i < prices_sortby.size(); i = i + 2) {
@@ -494,6 +504,7 @@ public class PackageVerification extends AbstractPage {
 		}
 
 		Common.log("Flag = " + flag);
+		Common.logveri("---> Verification End <---");
 		if (flag <= 1)
 			return true;
 		else
@@ -511,21 +522,25 @@ public class PackageVerification extends AbstractPage {
 		if(items_list.size()==items) {
 			items_per_page_var++;
 			System.out.println("items_per_page_var :" +items_per_page_var);
+			Common.logveri("---> Verification Done <---");
 		}
 	}
 
 	public boolean showperpage_verified() {
 		// TODO Auto-generated method stub
-		if(items_per_page_var==4) 
+		if(items_per_page_var==4) { 
+	    Common.logveri("---> Final Verification Done <---");	
 		return true;
-		else
-		return false;
+		}
+		else {
+		Common.logveri("---> Final Verification is not Done <---");			
+		return false;}
 	}
 
 	
 	
 	public boolean wishlist_verification() {
-		
+		Common.logveri("---> Verification Start <---");	
 		String name=null;
 		String price=null;
 		//List<WebElement> items = driver.findElements(By.xpath("//input[@class='input-text qty']"));
@@ -558,7 +573,7 @@ public class PackageVerification extends AbstractPage {
 				flag--;
 			}
 		}
-		
+		Common.logveri("---> Verification End <---");	
 		if(flag==0)
 		return true;
 		else
